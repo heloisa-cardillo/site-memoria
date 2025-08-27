@@ -148,23 +148,21 @@ document.addEventListener('DOMContentLoaded', function () {
   `
     },
 
-    'fatecs': {
-      titulo: 'FATEC São José dos Campos',
-      conteudo: `
-       <div class="card-container">
-         <article class="card">
-           <div class="card-image-container">
-             <img src="statics/imgs/pictures/fatec centro memoria.jpg" alt="Centro de Memórias" class="card-image" loading="lazy">
-           </div>
-           <div class="card-content">
-             <h3 class="card-title">Centro de Memórias</h3>
-             <p class="card-text">Criado pela Portaria 01 de 30/06/2022, o projeto visa resgatar e preservar a memória da
-               Fatec São José dos Campos por meio de inventário, acervo e ações culturais ligadas à história da educação
-               tecnológica.</p>
-             <a href="#" class="saiba-mais" data-id="centro-memorias">Saiba +</a>
-           </div>
-         </article>
-
+  'fatecs': {
+  titulo: 'FATEC São José dos Campos',
+  conteudo: `
+   <div class="card-container">
+     <article class="card">
+       <div class="card-image-container">
+         <img src="statics/imgs/pictures/fatec centro memoria.jpg" alt="Centro de Memórias" class="card-image" loading="lazy">
+       </div>
+       <div class="card-content">
+         <h3 class="card-title">Centro de Memórias</h3>
+         <p class="card-text">Criado pela Portaria 01 de 30/06/2022, o projeto visa resgatar e preservar a memória da Fatec São José dos Campos...</p>
+         <a href="#" class="saiba-mais" data-id="centro-memorias">Saiba +</a>
+       </div>
+     </article>
+     
          <article class="card">
          <div class="card-image-container">
           <img src="statics/imgs/pictures/fatec.png" alt="Fatec São José dos Campos" class="card-image" loading="lazy">
