@@ -165,6 +165,30 @@ document.addEventListener('DOMContentLoaded', function () {
            </div>
          </article>
 
+          <article class="card">
+           <div class="card-image-container">
+             <img src="statics/imgs/icones/centrosMemorias.png" alt="Centros de Memórias" class="card-image" loading="lazy">
+           </div>
+           <div class="card-content">
+             <h3 class="card-title">Centros de Memórias</h3>
+             <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos. Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.
+</p>
+             <a href="#" class="saiba-mais" data-id="centro-memorias">Saiba +</a>
+           </div>
+         </article>
+
+          <article class="card">
+           <div class="card-image-container">
+             <img src="statics/imgs/icones/centrosMemorias.png" alt="Centro de Memórias" class="card-image" loading="lazy">
+           </div>
+           <div class="card-content">
+             <h3 class="card-title">Centros de Memórias</h3>
+             <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos. Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.
+</p>
+             <a href="#" class="saiba-mais" data-id="centro-memorias">Saiba +</a>
+           </div>
+         </article>
+
          <article class="card">
            <div class="card-image-container">
              <video controls class="card-image" loading="lazy">
@@ -180,6 +204,7 @@ document.addEventListener('DOMContentLoaded', function () {
          </article>
        </div>
      `
+     
     },
 
     'centro-memorias': {
