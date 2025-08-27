@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
   `
     },
 
-    'fatec-sjc': {
+    'fatecs': {
       titulo: 'FATEC São José dos Campos',
       conteudo: `
        <div class="card-container">
