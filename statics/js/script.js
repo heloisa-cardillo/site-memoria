@@ -165,6 +165,17 @@ document.addEventListener('DOMContentLoaded', function () {
            </div>
          </article>
 
+         <article class="card">
+         <div class="card-image-container">
+          <img src="statics/imgs/pictures/fatec.png" alt="Fatec São José dos Campos" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Fatec São José dos Campos - Prof. Jessen Vidal</h3>
+          <p class="card-text">A Fatec São José dos Campos foi criada em 2 de março de 2006. A Fatec é uma faculdade
+            pública do Estado de São Paulo, oferecendo cursos superiores de tecnologia gratuitos</p>
+          <a href="#" class="saiba-mais" data-id="fatec-sjc">Saiba +</a>
+        </div>
+</article>
           <article class="card">
            <div class="card-image-container">
              <img src="statics/imgs/icones/centrosMemorias.png" alt="Centros de Memórias" class="card-image" loading="lazy">
