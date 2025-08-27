@@ -249,23 +249,31 @@ document.addEventListener('DOMContentLoaded', function () {
        <img src="statics/imgs/pictures/fatec centro memoria.jpg" alt="Centro de Memórias" class="info-image">
        <p>O Centro de Memórias da FATEC São José dos Campos foi criado pela Portaria 01 de 30/06/2022, com o objetivo de resgatar e preservar a memória da instituição por meio de inventário, acervo e ações culturais ligadas à história da educação tecnológica.</p>
        <p>Este projeto visa documentar a trajetória da instituição, seus professores, alunos e contribuições para o desenvolvimento tecnológico da região.</p>
-       <div class="info-sources">
-         <p>Membros responsáveis:</p>
-         <p>Gerson Carlos Favalli;</p>
-         <p>Luciana de Abreu Aquino;</p>
-         <p>Sardes Aparecida Batista;</p>
-         <p>Nilo Jerônimo Vieira;</p>
-         <p>Eliane Penha Mergulhão Dias;</p>
-       </div>
-       <div class="info-sources">
-         <p>Professores convidados:</p>
-         <p>Elisiane Alves de Oliveira;</p>
-         <p>Julia Kanazawa (Etec Jacareí);</p>
-       </div>
-       <div class="info-sources">
-         <p>Link relacionado:</p>
-         <p><a href="http://www.memorias.cpscetec.com.br/acervoVer.php?cma=29" target="_blank" class="parque-link">Centros de Memória do Centro Paula Souza</a></p>
-       </div>
+       <br>
+       <p> Desenvolvedores da Pagina do Centro de Memorias da Fatec São José dos Campos:</p>
+
+       <p> Heloisa Cardillo Lima 
+       <p><a href="https://github.com/heloisa-cardillo" target="_blank" class="heloisa-link">Github</a></p>
+       <p>João Vitor Silva Correia Siqueira</p>
+       <p><a href="https://github.com/kakashinho" target="_blank" class="heloisa-link">Github</a></p>
+
+      //  <div class="info-sources">
+      //    <p>Membros responsáveis:</p>
+      //    <p>Gerson Carlos Favalli;</p>
+      //    <p>Luciana de Abreu Aquino;</p>
+      //    <p>Sardes Aparecida Batista;</p>
+      //    <p>Nilo Jerônimo Vieira;</p>
+      //    <p>Eliane Penha Mergulhão Dias;</p>
+      //  </div>
+      //  <div class="info-sources">
+      //    <p>Professores convidados:</p>
+      //    <p>Elisiane Alves de Oliveira;</p>
+      //    <p>Julia Kanazawa (Etec Jacareí);</p>
+      //  </div>
+      //  <div class="info-sources">
+      //    <p>Link relacionado:</p>
+      //    <p><a href="http://www.memorias.cpscetec.com.br/acervoVer.php?cma=29" target="_blank" class="parque-link">Centros de Memória do Centro Paula Souza</a></p>
+      //  </div>
      `
     },
 
