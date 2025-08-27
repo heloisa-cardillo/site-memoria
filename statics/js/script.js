@@ -148,9 +148,9 @@ document.addEventListener('DOMContentLoaded', function () {
   `
     },
 
-  'fatecs': {
-  titulo: 'FATEC São José dos Campos',
-  conteudo: `
+    'fatecs': {
+      titulo: 'FATEC São José dos Campos',
+      conteudo: `
    <div class="card-container">
      <article class="card">
        <div class="card-image-container">
@@ -162,28 +162,40 @@ document.addEventListener('DOMContentLoaded', function () {
          <a href="#" class="saiba-mais" data-id="centro-memorias">Saiba +</a>
        </div>
      </article>
-     
+
          <article class="card">
          <div class="card-image-container">
+        <img src="statics/imgs/icones/logoFatec.png" alt="Fatecs" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Fatecs</h3>
+          <p class="card-text">A Fatec São José dos Campos foi criada em 2 de março de 2006. A Fatec é uma faculdade
+            pública do Estado de São Paulo, oferecendo cursos superiores de tecnologia gratuitos</p>
+          <a href="#" class="saiba-mais" data-id="infoFatecs">Saiba +</a>
+        </div>
+</article>
+
+         <article class="card">
+        <div class="card-image-container">
           <img src="statics/imgs/pictures/fatec.png" alt="Fatec São José dos Campos" class="card-image" loading="lazy">
         </div>
         <div class="card-content">
           <h3 class="card-title">Fatec São José dos Campos - Prof. Jessen Vidal</h3>
           <p class="card-text">A Fatec São José dos Campos foi criada em 2 de março de 2006. A Fatec é uma faculdade
             pública do Estado de São Paulo, oferecendo cursos superiores de tecnologia gratuitos</p>
-          <a href="#" class="saiba-mais" data-id="fatec-sjc">Saiba +</a>
+          <a href="#" class="saiba-mais" data-id="fatecs">Saiba +</a>
         </div>
 </article>
 
           <article class="card">
            <div class="card-image-container">
-             <img src="statics/imgs/icones/centrosMemorias.png" alt="Centro de Memórias" class="card-image" loading="lazy">
+             <img src="statics/imgs/icones/memorias.jpg" alt="Centro de Memórias" class="card-image" loading="lazy">
            </div>
            <div class="card-content">
              <h3 class="card-title">Centros de Memórias</h3>
              <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos. Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.
 </p>
-             <a href="#" class="saiba-mais" data-id="centro-memorias">Saiba +</a>
+             <a href="#" class="saiba-mais" data-id="centros-Fatecs">Saiba +</a>
            </div>
          </article>
 
@@ -202,7 +214,33 @@ document.addEventListener('DOMContentLoaded', function () {
          </article>
        </div>
      `
-     
+
+    },
+
+    'centros-Fatecs': {
+      titulo: 'Centros de Memórias da FATECS',
+      conteudo: `
+       <img src="statics/imgs/icones/memorias.jpg" alt="Centro de Memórias" class="info-image">
+       <p>Desde 2008, os Centros de Memória contam com a curadoria de professores responsáveis por projetos anuais. Atualmente, são dezoito Centros de Memória em escolas técnicas e um em faculdade de tecnologia, e mais seis acervos históricos, com professores e estudantes pesquisando e organizando acervos arquivísticos, bibliográficos e museológicos existentes nas escolas técnicas e nas faculdades de tecnologia.</p>
+       <p>Este projeto visa documentar a trajetória da instituição, seus professores, alunos e contribuições para o desenvolvimento tecnológico da região.</p>
+       <p><a href="https://memorias.cpscetec.com.br/centroMemoria.php" target="_blank" class="centros-link">Projeto Centro de Memórias da Fatec</a></p>
+       <p><a href="https://memorias.cpscetec.com.br/centroLista.php" target="_blank" class="centros-link">Conheça o Centro de Memórias de cada Fatec</a></p>
+     `
+    },
+
+    'infoFatecs': {
+      titulo: 'FATECS',
+      conteudo: `
+       <img src="statics/imgs/icones/logoFatec.png" alt="Fatecs" class="info-image">
+       <p>As Faculdades de Tecnologia (Fatecs) foram criadas em 1969 com o objetivo de oferecer cursos superiores de curta duração (2 a 3 anos), voltados para a formação tecnológica. Em 1973, a administração dessas instituições passou a ser feita pelo Centro Paula Souza, responsável também pelas Etecs e pela UNIVESP. A primeira Fatec foi a de São Paulo (Fatec-SP).</p>
+       <p>As Fatecs se destacam por oferecer ensino público e gratuito, com cursos voltados para áreas tecnológicas como Análise e Desenvolvimento de Sistemas, Construção Civil, Eletrônica Industrial, Gestão da Produção e Qualidade, entre outras. Os cursos são distribuídos em diferentes turnos (manhã, tarde e noite) e têm forte ênfase na prática, por meio de laboratórios, projetos e atividades integradoras.</p>
+       <p>A estrutura das Fatecs é moderna, com laboratórios bem equipados, bibliotecas e recursos multimídia. Todos os alunos têm acesso a aulas de inglês. A instituição busca manter seus cursos atualizados com as demandas do mercado de trabalho e das regiões onde está inserida.</p>
+       <p>O ingresso se dá por meio de vestibular, com provas de conhecimentos gerais e uma redação. O processo seletivo é bastante concorrido, especialmente em cursos mais populares como os de tecnologia da informação.</p>
+       <p>Entre os principais benefícios das Fatecs estão o ensino gratuito, a alta empregabilidade dos formandos e a forte integração com o setor produtivo. Os cursos são reconhecidos tanto academicamente quanto pelo mercado, o que torna a instituição uma referência na educação tecnológica no Brasil.<p>
+       <p>Desde 2008, os Centros de Memória contam com a curadoria de professores responsáveis por projetos anuais. Atualmente, são dezoito Centros de Memória em escolas técnicas e um em faculdade de tecnologia, e mais seis acervos históricos, com professores e estudantes pesquisando e organizando acervos arquivísticos, bibliográficos e museológicos existentes nas escolas técnicas e nas faculdades de tecnologia.</p>
+       <p>Este projeto visa documentar a trajetória da instituição, seus professores, alunos e contribuições para o desenvolvimento tecnológico da região.</p>
+       <p><a href="https://www.cps.sp.gov.br/fatec/" target="_blank" class="fatecs-link">Fatec Paula Souza</a></p>
+     `
     },
 
     'centro-memorias': {
@@ -234,12 +272,12 @@ document.addEventListener('DOMContentLoaded', function () {
     'video-centro-memorias': {
       titulo: 'Vídeo do Centro de Memórias',
       conteudo: `
-       <div class="video-container">
-         <video controls width="100%">
-           <source src="statics/video/video centro de memoria.mp4" type="video/mp4">
-           Seu navegador não suporta a reprodução de vídeos.
-         </video>
-       </div>
+      <div class="video-container">
+        <video controls width="100%">
+          <source src="statics/video/video centro de memoria.mp4" type="video/mp4">
+          Seu navegador não suporta a reprodução de vídeos.
+        </video>
+      </div>
      `
     },
 
