@@ -86,6 +86,70 @@ document.addEventListener('DOMContentLoaded', function () {
 
       <article class="card">
         <div class="card-image-container">
+          <img src="statics/imgs/icones/interFatecs.png" alt="InterFatecs" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Maratona InterFatecs</h3>
+          <p class="card-text"> Competição anual de programação que reúne equipes de estudantes das Fatecs para resolver
+           desafios complexos em linguagens como C, Java e Python. O evento combina fases online e uma final presencial, 
+           além de oferecer palestras, oficinas e oportunidades de networking.</p>
+          <a href="#" class="saiba-mais" data-id="InterFatecs">Saiba +</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image-container">
+          <img src="statics/imgs/icones/API.png" alt="API" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Projeto API e Feira de Soluções</h3>
+          <p class="card-text">  A metodologia de Aprendizagem por Projetos Integrados (API) da Fatec São José dos Campos estimula
+           os alunos a desenvolver soluções reais em equipes, aplicando conceitos ágeis. Os resultados são apresentados em feiras 
+           que conectam estudantes, empresas e a comunidade.</p>
+          <a href="#" class="saiba-mais" data-id="API">Saiba +</a>
+        </div>
+      </article>
+
+       <article class="card">
+        <div class="card-image-container">
+          <img src="statics/imgs/pictures/HackaTruck.png" alt="HackaTruck" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Projeto HackaTruck (IoT e prototipagem móvel)</h3>
+          <p class="card-text"> Um laboratório móvel itinerante que leva tecnologia de ponta e capacitação prática em Internet das Coisas,
+          programação e prototipagem para estudantes de diversas regiões do Brasil, promovendo inclusão digital e inovação.</p>
+          <a href="#" class="saiba-mais" data-id="HackaTruck">Saiba +</a>
+        </div>
+      </article>
+
+      
+       <article class="card">
+        <div class="card-image-container">
+          <img src="statics/imgs/icones/Inova.png" alt="Inova" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Agência Inova Paula Souza</h3>
+          <p class="card-text"> Criada para impulsionar a inovação e o empreendedorismo nas Fatecs e Etecs, a Agência oferece cursos e programas 
+          que ajudam alunos a transformar ideias em negócios, aproximando-os do mercado e fortalecendo o ecossistema tecnológico.</p>
+          <a href="#" class="saiba-mais" data-id="Inova">Saiba +</a>
+        </div>
+      </article>
+
+      
+       <article class="card">
+        <div class="card-image-container">
+          <img src="statics/imgs/icones/SAE.png" alt="SAE" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">SAE Aerodesign</h3>
+          <p class="card-text"> Competição internacional que desafia estudantes a projetar, construir e testar aeronaves radiocontroladas, combinando 
+          conhecimentos técnicos, gestão de projetos e trabalho em equipe, realizada em São José dos Campos, polo aeroespacial do Brasil.</p>
+          <a href="#" class="saiba-mais" data-id="SAE">Saiba +</a>
+        </div>
+      </article>
+
+     <article class="card">
+        <div class="card-image-container">
           <img src="statics/imgs/pictures/EMB-120/EMB-120.png" alt="EMB-120" class="card-image" loading="lazy">
         </div>
         <div class="card-content">
