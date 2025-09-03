@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 
+
+
   const tituloPrincipal = document.getElementById('titulo-principal');
   if (tituloPrincipal) {
     console.log('Título principal encontrado:', tituloPrincipal.textContent);
@@ -12,9 +14,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+
+
+
+
   const secaoInformacoes = document.getElementById('informacoes-detalhadas');
   if (secaoInformacoes) {
     console.log('Seção de informações detalhadas encontrada');
+
+
+
+
 
 
 
@@ -35,8 +45,12 @@ document.addEventListener('DOMContentLoaded', function () {
        `;
 
 
+
+
         secaoInformacoes.style.display = 'block';
         secaoInformacoes.scrollIntoView({ behavior: 'smooth' });
+
+
 
 
         const novosLinks = secaoInformacoes.querySelectorAll('.saiba-mais');
@@ -51,6 +65,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
 
+
+
         const botaoFechar = document.getElementById('fechar-info');
         if (botaoFechar) {
           console.log('Botão de fechar encontrado');
@@ -63,9 +79,13 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 
+
+
   const saibaMaisLinks = document.querySelectorAll('.saiba-mais');
 
+
   const detalhesInfo = {
+
 
     'eventos-programas': {
       titulo: 'Eventos e Programas da Fatec',
@@ -84,6 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </article>
 
+
       <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/icones/interFatecs.png" alt="InterFatecs" class="card-image" loading="lazy">
@@ -91,11 +112,12 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="card-content">
           <h3 class="card-title">Maratona InterFatecs</h3>
           <p class="card-text"> Competição anual de programação que reúne equipes de estudantes das Fatecs para resolver
-           desafios complexos em linguagens como C, Java e Python. O evento combina fases online e uma final presencial, 
+           desafios complexos em linguagens como C, Java e Python. O evento combina fases online e uma final presencial,
            além de oferecer palestras, oficinas e oportunidades de networking.</p>
           <a href="#" class="saiba-mais" data-id="InterFatecs">Saiba +</a>
         </div>
       </article>
+
 
       <article class="card">
         <div class="card-image-container">
@@ -104,11 +126,12 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="card-content">
           <h3 class="card-title">Projeto API e Feira de Soluções</h3>
           <p class="card-text">  A metodologia de Aprendizagem por Projetos Integrados (API) da Fatec São José dos Campos estimula
-           os alunos a desenvolver soluções reais em equipes, aplicando conceitos ágeis. Os resultados são apresentados em feiras 
+           os alunos a desenvolver soluções reais em equipes, aplicando conceitos ágeis. Os resultados são apresentados em feiras
            que conectam estudantes, empresas e a comunidade.</p>
           <a href="#" class="saiba-mais" data-id="API">Saiba +</a>
         </div>
       </article>
+
 
        <article class="card">
         <div class="card-image-container">
@@ -122,31 +145,34 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </article>
 
-      
+
+     
        <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/icones/Inova.png" alt="Inova" class="card-image" loading="lazy">
         </div>
         <div class="card-content">
           <h3 class="card-title">Agência Inova Paula Souza</h3>
-          <p class="card-text"> Criada para impulsionar a inovação e o empreendedorismo nas Fatecs e Etecs, a Agência oferece cursos e programas 
+          <p class="card-text"> Criada para impulsionar a inovação e o empreendedorismo nas Fatecs e Etecs, a Agência oferece cursos e programas
           que ajudam alunos a transformar ideias em negócios, aproximando-os do mercado e fortalecendo o ecossistema tecnológico.</p>
           <a href="#" class="saiba-mais" data-id="Inova">Saiba +</a>
         </div>
       </article>
 
-      
+
+     
        <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/icones/SAE.png" alt="SAE" class="card-image" loading="lazy">
         </div>
         <div class="card-content">
           <h3 class="card-title">SAE Aerodesign</h3>
-          <p class="card-text"> Competição internacional que desafia estudantes a projetar, construir e testar aeronaves radiocontroladas, combinando 
+          <p class="card-text"> Competição internacional que desafia estudantes a projetar, construir e testar aeronaves radiocontroladas, combinando
           conhecimentos técnicos, gestão de projetos e trabalho em equipe, realizada em São José dos Campos, polo aeroespacial do Brasil.</p>
           <a href="#" class="saiba-mais" data-id="SAE">Saiba +</a>
         </div>
       </article>
+
 
      <article class="card">
         <div class="card-image-container">
@@ -165,6 +191,7 @@ document.addEventListener('DOMContentLoaded', function () {
   `
     },
 
+
     'nomes-inspiram': {
       titulo: 'Nomes que Inspiram',
       conteudo: `
@@ -181,6 +208,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </article>
 
+
       <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/pessoas/jessenVidal/jessenVidal.jpg" alt="Professor Jessen Vidal" class="card-image"
@@ -194,6 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <a href="#" class="saiba-mais" data-id="jessen-vidal">Saiba +</a>
         </div>
       </article>
+
 
       <article class="card">
         <div class="card-image-container">
@@ -212,6 +241,7 @@ document.addEventListener('DOMContentLoaded', function () {
   `
     },
 
+
     'fatecs': {
       titulo: 'FATECS',
       conteudo: `
@@ -221,11 +251,25 @@ document.addEventListener('DOMContentLoaded', function () {
          <img src="statics/imgs/pictures/fatec centro memoria.jpg" alt="Centro de Memórias" class="card-image" loading="lazy">
        </div>
        <div class="card-content">
-         <h3 class="card-title">Centro de Memórias</h3>
-         <p class="card-text">Criado pela Portaria 01 de 30/06/2022, o projeto visa resgatar e preservar a memória da Fatec São José dos Campos...</p>
+         <h3 class="card-title">Apresentação o Centro de Memórias da Fatec de São José dos Campos</h3>
+         <p class="card-text">Criado pela Portaria 01 de 30/06/2022, o projeto visa resgatar e preservar a memória da Fatec São José dos Campos</p>
          <a href="#" class="saiba-mais" data-id="centro-memorias">Saiba +</a>
        </div>
      </article>
+
+
+ <article class="card">
+         <div class="card-image-container">
+        <img src="statics/imgs/icones/centrosMemorias.png" alt="centrosMemoria" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Centros de Memórias das Fatecs</h3>
+          <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos.
+           Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.</p>
+          <a href="#" class="saiba-mais" data-id="infoFatecs">Saiba +</a>
+        </div>
+</article>
+
 
          <article class="card">
          <div class="card-image-container">
@@ -239,6 +283,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
 </article>
 
+
          <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/pictures/fatec.png" alt="Fatec São José dos Campos" class="card-image" loading="lazy">
@@ -251,17 +296,19 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
 </article>
 
+
           <article class="card">
            <div class="card-image-container">
              <img src="statics/imgs/icones/memorias.jpg" alt="Centro de Memórias" class="card-image" loading="lazy">
            </div>
            <div class="card-content">
-             <h3 class="card-title">Centros de Memórias</h3>
+             <h3 class="card-title">Fatecs</h3>
              <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos. Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.
 </p>
              <a href="#" class="saiba-mais" data-id="centros-Fatecs">Saiba +</a>
            </div>
          </article>
+
 
          <article class="card">
            <div class="card-image-container">
@@ -271,13 +318,14 @@ document.addEventListener('DOMContentLoaded', function () {
              </video>
            </div>
            <div class="card-content">
-             <h3 class="card-title">Video Centro de Memórias</h3>
-             <p class="card-text">Video Apresentação do Centro de Memórias</p>
+             <h3 class="card-title">Video do Centro de Memórias da Fatec de São José dos Campos</h3>
+             <p class="card-text">Video Apresentação do Centro de Memórias de São José dos Campos</p>
              <a href="#" class="saiba-mais" data-id="video-centro-memorias">Saiba +</a>
            </div>
          </article>
        </div>
      `
+
 
     },
 
