@@ -1,8 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-
-
-
-
   const tituloPrincipal = document.getElementById('titulo-principal');
   if (tituloPrincipal) {
     console.log('Título principal encontrado:', tituloPrincipal.textContent);
@@ -11,23 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-
-
-
-
-
-
-
   const secaoInformacoes = document.getElementById('informacoes-detalhadas');
   if (secaoInformacoes) {
     console.log('Seção de informações detalhadas encontrada');
-
-
-
-
-
-
-
 
     window.mostrarInformacoes = function (infoId, detalhesInfo) {
       if (detalhesInfo[infoId]) {
@@ -44,14 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
          </div>
        `;
 
-
-
-
         secaoInformacoes.style.display = 'block';
         secaoInformacoes.scrollIntoView({ behavior: 'smooth' });
-
-
-
 
         const novosLinks = secaoInformacoes.querySelectorAll('.saiba-mais');
         novosLinks.forEach(link => {
@@ -64,9 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
           });
         });
 
-
-
-
         const botaoFechar = document.getElementById('fechar-info');
         if (botaoFechar) {
           console.log('Botão de fechar encontrado');
@@ -78,15 +51,9 @@ document.addEventListener('DOMContentLoaded', function () {
     };
   }
 
-
-
-
   const saibaMaisLinks = document.querySelectorAll('.saiba-mais');
 
-
   const detalhesInfo = {
-
-
     'eventos-programas': {
       titulo: 'Eventos e Programas da Fatec',
       conteudo: `
@@ -103,8 +70,6 @@ document.addEventListener('DOMContentLoaded', function () {
           <a href="#" class="saiba-mais" data-id="baja">Saiba +</a>
         </div>
       </article>
-
-
       <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/icones/interFatecs.png" alt="InterFatecs" class="card-image" loading="lazy">
@@ -117,8 +82,6 @@ document.addEventListener('DOMContentLoaded', function () {
           <a href="#" class="saiba-mais" data-id="InterFatecs">Saiba +</a>
         </div>
       </article>
-
-
       <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/icones/API.png" alt="API" class="card-image" loading="lazy">
@@ -131,8 +94,6 @@ document.addEventListener('DOMContentLoaded', function () {
           <a href="#" class="saiba-mais" data-id="API">Saiba +</a>
         </div>
       </article>
-
-
        <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/pictures/HackaTruck.png" alt="HackaTruck" class="card-image" loading="lazy">
@@ -144,9 +105,6 @@ document.addEventListener('DOMContentLoaded', function () {
           <a href="#" class="saiba-mais" data-id="HackaTruck">Saiba +</a>
         </div>
       </article>
-
-
-     
        <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/icones/Inova.png" alt="Inova" class="card-image" loading="lazy">
@@ -158,9 +116,6 @@ document.addEventListener('DOMContentLoaded', function () {
           <a href="#" class="saiba-mais" data-id="Inova">Saiba +</a>
         </div>
       </article>
-
-
-     
        <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/icones/SAE.png" alt="SAE" class="card-image" loading="lazy">
@@ -172,8 +127,6 @@ document.addEventListener('DOMContentLoaded', function () {
           <a href="#" class="saiba-mais" data-id="SAE">Saiba +</a>
         </div>
       </article>
-
-
      <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/pictures/EMB-120/EMB-120.png" alt="EMB-120" class="card-image" loading="lazy">
@@ -190,8 +143,6 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
   `
     },
-
-
     'nomes-inspiram': {
       titulo: 'Nomes que Inspiram',
       conteudo: `
@@ -207,8 +158,6 @@ document.addEventListener('DOMContentLoaded', function () {
           <a href="#" class="saiba-mais" data-id="cesar-lattes">Saiba +</a>
         </div>
       </article>
-
-
       <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/pessoas/jessenVidal/jessenVidal.jpg" alt="Professor Jessen Vidal" class="card-image"
@@ -222,8 +171,6 @@ document.addEventListener('DOMContentLoaded', function () {
           <a href="#" class="saiba-mais" data-id="jessen-vidal">Saiba +</a>
         </div>
       </article>
-
-
       <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/pessoas/souza/souza.png" alt="Paula Souza" class="card-image" loading="lazy">
@@ -240,10 +187,47 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
   `
     },
-
-
     'fatecs': {
       titulo: 'FATECS',
+      conteudo: `
+   <div class="card-container">
+     <article class="card">
+       <div class="card-image-container">
+         <img src="statics/imgs/icones/centrosMemorias.png" alt="Centros de Memória" class="card-image" loading="lazy">
+       </div>
+       <div class="card-content">
+         <h3 class="card-title">Centros de Memórias das Fatecs</h3>
+         <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos.
+           Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.</p>
+         <a href="#" class="saiba-mais" data-id="centros-memoria-fatec">Saiba +</a>
+       </div>
+     </article>
+     <article class="card">
+       <div class="card-image-container">
+         <img src="statics/imgs/icones/logoFatec.png" alt="Fatecs" class="card-image" loading="lazy">
+       </div>
+       <div class="card-content">
+         <h3 class="card-title">Fatecs</h3>
+         <p class="card-text">As Fatecs (Faculdades de Tecnologia do Estado de São Paulo) são instituições públicas de ensino superior que oferecem cursos superiores de tecnologia, com foco na formação de profissionais alinhados às demandas do mercado de trabalho.</p>
+         <a href="#" class="saiba-mais" data-id="infoFatecs">Saiba +</a>
+       </div>
+     </article>
+     <article class="card">
+       <div class="card-image-container">
+         <img src="statics/imgs/pictures/fatec.png" alt="Fatec São José dos Campos" class="card-image" loading="lazy">
+       </div>
+       <div class="card-content">
+         <h3 class="card-title">Fatec São José dos Campos - Prof. Jessen Vidal</h3>
+         <p class="card-text">A Fatec São José dos Campos foi criada em 2 de março de 2006. A Fatec é uma faculdade
+           pública do Estado de São Paulo, oferecendo cursos superiores de tecnologia gratuitos</p>
+         <a href="#" class="saiba-mais" data-id="fatec-sao-jose-campos">Saiba +</a>
+       </div>
+     </article>
+   </div>
+   `
+    },
+    'centros-memoria-fatec': {
+      titulo: 'Centros de Memórias das Fatecs',
       conteudo: `
    <div class="card-container">
      <article class="card">
@@ -256,79 +240,32 @@ document.addEventListener('DOMContentLoaded', function () {
          <a href="#" class="saiba-mais" data-id="centro-memorias">Saiba +</a>
        </div>
      </article>
-
-
- <article class="card">
-         <div class="card-image-container">
-        <img src="statics/imgs/icones/centrosMemorias.png" alt="centrosMemoria" class="card-image" loading="lazy">
-        </div>
-        <div class="card-content">
-          <h3 class="card-title">Centros de Memórias das Fatecs</h3>
-          <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos.
-           Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.</p>
-          <a href="#" class="saiba-mais" data-id="infoFatecs">Saiba +</a>
-        </div>
-</article>
-
-
-         <article class="card">
-         <div class="card-image-container">
-        <img src="statics/imgs/icones/logoFatec.png" alt="Fatecs" class="card-image" loading="lazy">
-        </div>
-        <div class="card-content">
-          <h3 class="card-title">Fatecs</h3>
-          <p class="card-text">A Fatec São José dos Campos foi criada em 2 de março de 2006. A Fatec é uma faculdade
-            pública do Estado de São Paulo, oferecendo cursos superiores de tecnologia gratuitos</p>
-          <a href="#" class="saiba-mais" data-id="infoFatecs">Saiba +</a>
-        </div>
-</article>
-
-
-         <article class="card">
-        <div class="card-image-container">
-          <img src="statics/imgs/pictures/fatec.png" alt="Fatec São José dos Campos" class="card-image" loading="lazy">
-        </div>
-        <div class="card-content">
-          <h3 class="card-title">Fatec São José dos Campos - Prof. Jessen Vidal</h3>
-          <p class="card-text">A Fatec São José dos Campos foi criada em 2 de março de 2006. A Fatec é uma faculdade
-            pública do Estado de São Paulo, oferecendo cursos superiores de tecnologia gratuitos</p>
-          <a href="#" class="saiba-mais" data-id="fatecs">Saiba +</a>
-        </div>
-</article>
-
-
-          <article class="card">
-           <div class="card-image-container">
-             <img src="statics/imgs/icones/memorias.jpg" alt="Centro de Memórias" class="card-image" loading="lazy">
-           </div>
-           <div class="card-content">
-             <h3 class="card-title">Fatecs</h3>
-             <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos. Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.
-</p>
-             <a href="#" class="saiba-mais" data-id="centros-Fatecs">Saiba +</a>
-           </div>
-         </article>
-
-
-         <article class="card">
-           <div class="card-image-container">
-             <video controls class="card-image" loading="lazy">
-               <source src="statics/video/video centro de memoria.mp4">
-               Seu navegador não suporta vídeos HTML5.
-             </video>
-           </div>
-           <div class="card-content">
-             <h3 class="card-title">Video do Centro de Memórias da Fatec de São José dos Campos</h3>
-             <p class="card-text">Video Apresentação do Centro de Memórias de São José dos Campos</p>
-             <a href="#" class="saiba-mais" data-id="video-centro-memorias">Saiba +</a>
-           </div>
-         </article>
+     <article class="card">
+       <div class="card-image-container">
+         <video controls class="card-image" loading="lazy">
+           <source src="statics/video/video centro de memoria.mp4">
+           Seu navegador não suporta vídeos HTML5.
+         </video>
        </div>
-     `
-
-
+       <div class="card-content">
+         <h3 class="card-title">Video do Centro de Memórias da Fatec de São José dos Campos</h3>
+         <p class="card-text">Video Apresentação do Centro de Memórias de São José dos Campos</p>
+         <a href="#" class="saiba-mais" data-id="video-centro-memorias">Saiba +</a>
+       </div>
+     </article>
+     <article class="card">
+       <div class="card-image-container">
+         <img src="statics/imgs/icones/centrosMemorias.png" alt="Centros de Memória" class="card-image" loading="lazy">
+       </div>
+       <div class="card-content">
+         <h3 class="card-title">Fatecs</h3>
+         <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos. Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.</p>
+         <a href="#" class="saiba-mais" data-id="centros-Fatecs">Saiba +</a>
+       </div>
+     </article>
+   </div>
+   `
     },
-
     'centros-Fatecs': {
       titulo: 'Centros de Memórias da FATECS',
       conteudo: `
@@ -339,7 +276,6 @@ document.addEventListener('DOMContentLoaded', function () {
        <p><a href="https://memorias.cpscetec.com.br/centroLista.php" target="_blank" class="centros-link">Conheça o Centro de Memórias de cada Fatec</a></p>
      `
     },
-
     'infoFatecs': {
       titulo: 'FATECS',
       conteudo: `
@@ -354,7 +290,6 @@ document.addEventListener('DOMContentLoaded', function () {
        <p><a href="https://www.cps.sp.gov.br/fatec/" target="_blank" class="fatecs-link">Fatec Paula Souza</a></p>
      `
     },
-
     'centro-memorias': {
       titulo: 'Centro de Memórias da FATEC',
       conteudo: `
@@ -363,32 +298,12 @@ document.addEventListener('DOMContentLoaded', function () {
        <p>Este projeto visa documentar a trajetória da instituição, seus professores, alunos e contribuições para o desenvolvimento tecnológico da região.</p>
        <br>
        <p> Desenvolvedores da Pagina do Centro de Memorias da Fatec São José dos Campos:</p>
-
        <p> Heloisa Cardillo Lima 
        <p><a href="https://github.com/heloisa-cardillo" target="_blank" class="heloisa-link">Github</a></p>
        <p>João Vitor Silva Correia Siqueira</p>
        <p><a href="https://github.com/kakashinho" target="_blank" class="heloisa-link">Github</a></p>
-
-      //  <div class="info-sources">
-      //    <p>Membros responsáveis:</p>
-      //    <p>Gerson Carlos Favalli;</p>
-      //    <p>Luciana de Abreu Aquino;</p>
-      //    <p>Sardes Aparecida Batista;</p>
-      //    <p>Nilo Jerônimo Vieira;</p>
-      //    <p>Eliane Penha Mergulhão Dias;</p>
-      //  </div>
-      //  <div class="info-sources">
-      //    <p>Professores convidados:</p>
-      //    <p>Elisiane Alves de Oliveira;</p>
-      //    <p>Julia Kanazawa (Etec Jacareí);</p>
-      //  </div>
-      //  <div class="info-sources">
-      //    <p>Link relacionado:</p>
-      //    <p><a href="http://www.memorias.cpscetec.com.br/acervoVer.php?cma=29" target="_blank" class="parque-link">Centros de Memória do Centro Paula Souza</a></p>
-      //  </div>
      `
     },
-
     'video-centro-memorias': {
       titulo: 'Vídeo do Centro de Memórias',
       conteudo: `
@@ -400,7 +315,6 @@ document.addEventListener('DOMContentLoaded', function () {
       </div>
      `
     },
-
     'jessen-vidal': {
       titulo: 'Quem foi Jessen Vidal?',
       conteudo: `
@@ -412,6 +326,10 @@ document.addEventListener('DOMContentLoaded', function () {
    <p><a href="https://www.al.sp.gov.br/repositorio/legislacao/lei/2009/lei-13875-16.12.2009.html" target="_blank" class="jessen-link">Ficha Informativa - Assembleia Legislativa do Estado de São Paulo</a></p>
    <p><a href="https://www.al.sp.gov.br/noticia/?id=262504" target="_blank" class="jessen-link">Homenagem - Assembleia Legislativa do Estado de São Paulo</a></p>
  `
+    },
+    'fatec-sao-jose-campos': {
+      titulo: 'Teste Fatec sÃO jOSÉ DOS Campos',
+      conteudo: 'Teste Fatec sÃO jOSÉ DOS Campos'
     },
     'parque-tecnologico': {
       titulo: 'Parque Tecnológico de São José dos Campos',
