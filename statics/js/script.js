@@ -193,17 +193,6 @@ document.addEventListener('DOMContentLoaded', function () {
    <div class="card-container">
      <article class="card">
        <div class="card-image-container">
-         <img src="statics/imgs/icones/centrosMemorias.png" alt="Centros de Memória" class="card-image" loading="lazy">
-       </div>
-       <div class="card-content">
-         <h3 class="card-title">Centros de Memórias das Fatecs</h3>
-         <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos.
-           Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.</p>
-         <a href="#" class="saiba-mais" data-id="centros-memoria-fatec">Saiba +</a>
-       </div>
-     </article>
-     <article class="card">
-       <div class="card-image-container">
          <img src="statics/imgs/icones/logoFatec.png" alt="Fatecs" class="card-image" loading="lazy">
        </div>
        <div class="card-content">
@@ -221,6 +210,17 @@ document.addEventListener('DOMContentLoaded', function () {
          <p class="card-text">A Fatec São José dos Campos foi criada em 2 de março de 2006. A Fatec é uma faculdade
            pública do Estado de São Paulo, oferecendo cursos superiores de tecnologia gratuitos</p>
          <a href="#" class="saiba-mais" data-id="fatec-sao-jose-campos">Saiba +</a>
+       </div>
+     </article>
+          <article class="card">
+       <div class="card-image-container">
+         <img src="statics/imgs/icones/centrosMemorias.png" alt="Centros de Memória" class="card-image" loading="lazy">
+       </div>
+       <div class="card-content">
+         <h3 class="card-title">Centros de Memórias das Fatecs</h3>
+         <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos.
+           Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.</p>
+         <a href="#" class="saiba-mais" data-id="centros-memoria-fatec">Saiba +</a>
        </div>
      </article>
    </div>
@@ -328,8 +328,18 @@ document.addEventListener('DOMContentLoaded', function () {
  `
     },
     'fatec-sao-jose-campos': {
-      titulo: 'Teste Fatec sÃO jOSÉ DOS Campos',
-      conteudo: 'Teste Fatec sÃO jOSÉ DOS Campos'
+      titulo: 'Fatec São José dos Campos',
+      conteudo: `
+       <img src="statics/imgs/pictures/fatecDois.png" alt="Fatec Segunda Imagem" class="info-image">
+       <p>A Faculdade de Tecnologia de São José dos Campos – Prof. Jessen Vidal (Fatec SJC) é uma instituição pública de ensino superior ligada ao Centro Paula Souza, que oferece cursos de graduação tecnológica gratuitos e de qualidade. Localizada no Vale do Paraíba, uma das regiões mais importantes do estado de São Paulo em termos de desenvolvimento industrial e tecnológico, 
+       a Fatec SJC tem como objetivo formar profissionais altamente qualificados para atender às demandas do mercado de trabalho, especialmente nas áreas de tecnologia, inovação e gestão.</p>
+       <p>A faculdade foi inaugurada em 2006 e desde então se consolidou como referência em ensino superior tecnológico, com forte integração entre teoria e prática. A instituição oferece diversos cursos voltados para setores estratégicos, como Desenvolvimento de Software Multiplataforma, Banco de Dados, Automação Aeronáutica, Manufatura Avançada, entre outros. O corpo docente é composto 
+      por professores com sólida formação acadêmica e experiência profissional, o que favorece a aplicação prática do conhecimento em sala de aula e em projetos de pesquisa e extensão. </p>
+       <p>A Fatec SJC também mantém parcerias com empresas da região, o que amplia as oportunidades de estágios, projetos integradores e inserção dos alunos no mercado de trabalho. Além disso, a instituição estimula a participação dos estudantes em atividades extracurriculares, como grupos de pesquisa, eventos acadêmicos e iniciativas de inovação e empreendedorismo.
+      Outro ponto importante é que a Fatec é gratuita e acessível por meio do vestibular organizado pela própria instituição em conjunto com o Centro Paula Souza. Com sua infraestrutura moderna, proposta pedagógica voltada para a prática e proximidade com o setor produtivo, a Fatec São José dos Campos se destaca como um polo de formação tecnológica e um espaço estratégico para quem busca carreira 
+      sólida em áreas ligadas à ciência, tecnologia e inovação.</p>
+       <p><a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank" class="parque-link">Site da Fatec São José dos Campos</a></p>
+     `
     },
     'parque-tecnologico': {
       titulo: 'Parque Tecnológico de São José dos Campos',
