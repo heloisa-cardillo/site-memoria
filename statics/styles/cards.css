@@ -142,6 +142,23 @@ a:hover {
   transition: opacity 0.2s ease;
 }
 
+.btn-voltar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);; /* verde bonito */
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-voltar:hover {
+  background-color: var(--primary-color);
+}
+
+
 .saiba-mais:hover {
   opacity: 0.9;
 }
