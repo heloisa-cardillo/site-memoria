@@ -322,7 +322,7 @@ export const detalhesInfo = {
   'baja': {
     titulo: 'Projeto BAJA SAE BRASIL',
     conteudo: `
-       <img src="statics/imgs/pictures/bajaDois" alt="BAJA" class="info-image">
+       <img src="statics/imgs/pictures/bajaDois.png" alt="BAJA" class="info-image">
        <p>O Projeto Baja SAE é desenvolvido por alunos de diversos cursos, principalmente Engenharia, com o objetivo de aplicar os conhecimentos teóricos em um projeto prático: projetar, construir e testar um veículo off-road.</p>
        <p>As equipes participam de competições nacionais e internacionais, onde são avaliadas em diversos aspectos, desde o projeto até o desempenho do veículo em provas dinâmicas e de resistência.</p>
        <p>Na FATEC São José dos Campos, o projeto Baja proporciona aos alunos a oportunidade de desenvolver habilidades técnicas e de gestão, trabalhando em equipe e aplicando conhecimentos de diversas áreas.</p>
@@ -335,7 +335,7 @@ export const detalhesInfo = {
   'InterFatecs': {
     titulo: 'Maratona InterFatecs – A Competição de Programação',
     conteudo: `
-       <img src="statics/imgs/pictures/BAJA.jpeg" alt="BAJA" class="info-image">
+       <img src="statics/imgs/pictures/interFatecDois.png" alt="BAJA" class="info-image">
        <p>A Maratona InterFatecs é uma competição anual de programação que reúne alunos de todas as Fatecs em equipes para resolver desafios de lógica e algoritmos em C, C++, Java e Python. Dividida em fases internas e uma final presencial em uma Fatec sede, o evento vai além da disputa, oferecendo palestras, oficinas, contato com empresas e oportunidades de networking para os participantes. </p>
        <p>A Maratona InterFatecs, que existe desde 2007, é um evento anual promovido pelas Fatecs (Faculdades de Tecnologia do Estado de São Paulo) em conjunto com o Centro Paula Souza (CPS) e tem como propósito desenvolver as habilidades dos alunos em lógica, algoritmos e trabalho em equipe sob pressão.</p>
        <p>A cada ano, estudantes interessados formam equipes compostas por três alunos titulares e, opcionalmente, um reserva, todos pertencentes à mesma Fatec. As linguagens permitidas para o envio de soluções são C, C++, Java e Python. A maratona ocorre em duas fases: primeiro, uma eliminatória online — tipicamente disputada nos laboratórios de cada unidade — e, em seguida, uma final presencial em uma Fatec sediadora específica a cada edição. Além da competição, as finais contam com palestras, oficinas e estandes de empresas parceiras, visando não apenas estimular o talento dos alunos, mas também oferecer oportunidades de networking.</p>
@@ -362,7 +362,7 @@ export const detalhesInfo = {
   'Inova': {
     titulo: 'Agência Inova Paula Souza',
     conteudo: `
-       <img src="statics/imgs/pictures/agenciaInovacaoDois.png" alt="BAJA" class="info-image">
+       <img src="statics/imgs/icones/agenciaInovacaoDois.png" alt="BAJA" class="info-image">
       <p>A Agência Inova Paula Souza é uma iniciativa do Centro Paula Souza dedicada a fomentar a inovação, a pesquisa aplicada e o empreendedorismo dentro das Faculdades de Tecnologia (Fatecs) e Escolas Técnicas (Etecs) do estado de São Paulo. Criada em 2014, a agência surgiu da necessidade de fortalecer o ecossistema de inovação no ensino técnico e tecnológico, aproximando alunos e professores de práticas ligadas à criação de startups, transferência de tecnologia e parcerias com empresas e instituições públicas. </p>
       <p> Entre os programas desenvolvidos pela Inova Paula Souza, um dos mais conhecidos é a Escola de Inovadores, que oferece cursos gratuitos de extensão focados em empreendedorismo e inovação. O curso, que geralmente tem duração de 20 semanas, é estruturado para guiar os participantes no processo de transformar uma ideia inicial em um modelo de negócio validado. A metodologia inclui oficinas sobre ideação, prototipagem, modelagem de negócios, pitch de apresentação e estratégias de inserção no mercado. Os melhores projetos ao final do ciclo têm a chance de serem encaminhados para incubadoras e programas de aceleração, ampliando as possibilidades de se tornarem startups viáveis. </p>
       <p>Além da Escola de Inovadores, a Agência também atua em outras frentes, como a promoção de competições de inovação, a criação de redes de pesquisa aplicada, e a formalização de convênios de cooperação tecnológica. Essa estrutura contínua permite que estudantes tenham contato com metodologias modernas de gestão de inovação e aprendam a lidar com as incertezas inerentes ao processo de criação de novos negócios. </p>
@@ -382,7 +382,7 @@ export const detalhesInfo = {
   'HackaTruck': {
     titulo: 'Projeto HackaTruck (IoT e prototipagem móvel)',
     conteudo: `
-       <img src="statics/imgs/pictures/HackTruckDois.png" alt="BAJA" class="info-image">
+       <img src="statics/imgs/pictures/HackaTruckDois.png" alt="HTDois" class="info-image">
       <p> O HackaTruck MakerSpace é um projeto educacional itinerante que combina inovação tecnológica, capacitação prática e inclusão digital. Criado em 2015 por meio de uma parceria entre a IBM Brasil, a Flex e a Apple, o programa foi desenvolvido com o objetivo de levar conhecimento de ponta em programação, Internet das Coisas (IoT), computação em nuvem e prototipagem a estudantes de todo o país. Sua principal característica é o formato itinerante: as atividades acontecem dentro de um caminhão totalmente adaptado, que funciona como um laboratório móvel de tecnologia, percorrendo universidades e instituições de ensino em diferentes estados brasileiros.</p>
       <p>O HackaTruck oferece capacitação intensiva em linguagens e ferramentas modernas, como Swift (usada no desenvolvimento de aplicativos iOS), plataformas de cloud computing, sensores IoT e técnicas de prototipagem rápida. Além das aulas teóricas, há sempre uma ênfase em práticas colaborativas, projetos em equipe e resolução de problemas do mundo real. A metodologia adota a lógica de makerspace, estimulando a criatividade, a experimentação e o trabalho “mão na massa”. </p>
       <p>Desde sua criação, o projeto se consolidou como uma iniciativa contínua, que tem impactado milhares de estudantes ao longo dos anos. Ele não só oferece acesso a tecnologias de ponta em cidades onde esse conhecimento poderia ser mais limitado, como também cria oportunidades de desenvolvimento de competências valorizadas pelo mercado, como inovação, trabalho em equipe e visão empreendedora.</p>
