@@ -337,7 +337,7 @@ export const detalhesInfo = {
        <p>A Fatec SJC também mantém parcerias com empresas da região, o que amplia as oportunidades de estágios, projetos integradores e inserção dos alunos no mercado de trabalho. Além disso, a instituição estimula a participação dos estudantes em atividades extracurriculares, como grupos de pesquisa, eventos acadêmicos e iniciativas de inovação e empreendedorismo.
       Outro ponto importante é que a Fatec é gratuita e acessível por meio do vestibular organizado pela própria instituição em conjunto com o Centro Paula Souza. Com sua infraestrutura moderna, proposta pedagógica voltada para a prática e proximidade com o setor produtivo, a Fatec São José dos Campos se destaca como um polo de formação tecnológica e um espaço estratégico para quem busca carreira 
       sólida em áreas ligadas à ciência, tecnologia e inovação.</p>
-       <p><a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank" class="parque-link">Site da Fatec São José dos Campos</a></p>
+       <p><a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank" class="parque-link">Fatec São José dos Campos</a></p>
      `
   },
   'parque-tecnologico': {
