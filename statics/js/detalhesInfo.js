@@ -85,6 +85,7 @@ export const detalhesInfo = {
           <a href="#" class="saiba-mais" data-id="aeronaves">Saiba +</a>
         </div>
       </article>
+    
     </div>
   `
   },
@@ -129,9 +130,62 @@ export const detalhesInfo = {
           <a href="#" class="saiba-mais" data-id="paula-souza">Saiba +</a>
         </div>
       </article>
+      <article class="card">
+        <div class="card-image-container">
+          <img src="statics/imgs/pessoas/ozires/ozires.jpg" alt="Ozires" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Ozires Silva</h3>
+          <p class="card-text">Ozires Silva, nascido em 1931, é engenheiro aeronáutico e ex-coronel da FAB. Fundador e primeiro presidente da Embraer, 
+          foi essencial para o avanço da aviação no Brasil. Também presidiu a Petrobras, foi ministro no governo Collor e atuou na área acadêmica. É autor de livros sobre empreendedorismo e inovação.</p>
+          <a href="#" class="saiba-mais" data-id="ozires-silva">Saiba +</a>
+        </div>
+      </article>
     </div>
   `
   },
+
+  'aeronaves': {
+    titulo: 'Aeronaves',
+    conteudo: `
+   <div class="card-container">
+     <article class="card">
+       <div class="card-image-container">
+         <img src="../statics/imgs/pictures/GURI.png" alt="Guri" class="card-image" loading="lazy">
+       </div>
+       <div class="card-content">
+         <h3 class="card-title">Guri</h3>
+         <p class="card-text">Temos nos nossos laboratórios uma aeronave Guri, modelo AMT 600, 
+         fabricada no Brasil pela empresa AEROMOT, situada em Porto Alegre, RS.</p>
+         <a href="#" class="saiba-mais" data-id="info-guri">Saiba +</a>
+       </div>
+     </article>
+     <article class="card">
+       <div class="card-image-container">
+         <img src="../statics/imgs/pictures/EMB-120.png" alt="EMB" class="card-image" loading="lazy">
+       </div>
+       <div class="card-content">
+         <h3 class="card-title">Embraer EMB-120 Brasília</h3>
+         <p class="card-text">O EMB-120 Brasília, lançado pela Embraer em 1983, é um turboélice regional para 
+         30 passageiros. Produzido em mais de 350 unidades, foi fundamental para a aviação regional no Brasil e no mundo. Em 2012, uma aeronave foi doada para uso educacional.</p>
+         <a href="#" class="saiba-mais" data-id="info-brasilia">Saiba +</a>
+       </div>
+     </article>
+          <article class="card">
+       <div class="card-image-container">
+         <img src="../statics/imgs/pictures/galpao.png" alt="Centros de Memória" class="card-image" loading="lazy">
+       </div>
+       <div class="card-content">
+         <h3 class="card-title">Laboratório de Asas Rotativas e Drones da FATEC São José dos Campos</h3>
+         <p class="card-text">O Laboratório de Asas Rotativas e Drones da FATEC São José dos Campos forma estudantes com projetos práticos em helicópteros e drones. Desde 2016, 
+         desenvolve pesquisas, testes e protótipos, como proteção para rotores e o simulador Alpha One. O laboratório promove inovação e qualificação na engenharia aeronáutica.</p>
+         <a href="#" class="saiba-mais" data-id="info-helicoptero">Saiba +</a>
+       </div>
+     </article>
+   </div>
+   `
+  },
+
   'fatecs': {
     titulo: 'FATECS',
     conteudo: `
@@ -319,6 +373,21 @@ export const detalhesInfo = {
      `
   },
 
+  'ozires-silva': {
+    titulo: 'Quem foi Ozires Silva?',
+    conteudo: `
+       <img src="statics/imgs/pessoas/ozires/oziresDois.jpg" alt="Orizes" class="info-image">
+       <p>Ozires Silva nasceu em 8 de janeiro de 1931, em Bauru, São Paulo. Formou-se em Engenharia Aeronáutica pelo Instituto Tecnológico de Aeronáutica (ITA) e iniciou sua carreira na Força Aérea Brasileira, onde alcançou o posto de coronel. Ganhou destaque nacional e internacional ao liderar o 
+       desenvolvimento do avião Bandeirante, projeto que culminou na criação da Embraer, em 1969, empresa que ele ajudou a fundar e da qual foi o primeiro presidente. Sob sua liderança, a Embraer cresceu e se consolidou como uma das maiores fabricantes de aeronaves do mundo.</p>
+       <p>Além da atuação na indústria aeronáutica, Ozires Stambém teve papel importante na administração pública. Foi presidente da Petrobras entre 1986 e 1989 e, posteriormente, assumiu cargos ministeriais no governo de Fernando Collor, servindo como Ministro da Infraestrutura e depois como Ministro das 
+       Comunicações, entre 1990 e 1991. Nos anos 2000, presidiu a compilva anhia aérea Varig durante um período de crise na empresa.</p>
+       <p>Fora da gestão de grandes organizações, Ozires também atuou na área acadêmica. Foi reitor da Universidade Monte Serrat (Unimonte), em Santos, entre 2008 e 2018, e posteriormente se tornou chanceler da Universidade São Judas. Ele é autor de vários livros voltados ao empreendedorismo, inovação e liderança, como 
+       A Decolagem de um Sonho e Cartas a um Jovem Empreendedor. Ao longo de sua carreira, Ozires Silva se destacou como uma figura central na história da aviação brasileira e um defensor da ciência, tecnologia e educação como pilares do desenvolvimento nacional.</p>
+         <p><a href="https://pt.wikipedia.org/wiki/Ozires_Silva" target="_blank" class="ozires-link">Wikipédia</a></p>
+         <p><a href="https://oziressilva.com.br/" target="_blank" class="ozires-link">Site em homenagem a Ozires</a></p>
+     `
+  },
+
   'baja': {
     titulo: 'Projeto BAJA SAE BRASIL',
     conteudo: `
@@ -357,7 +426,8 @@ export const detalhesInfo = {
       <p>Na FATEC de São José dos Campos, o Projeto API (Aprendizagem por Projetos Integrados) é um dos principais pilares pedagógicos dos cursos da área de tecnologia. O objetivo é que os alunos aprendam desenvolvendo soluções reais, desde o início da graduação, aplicando metodologias ágeis de gestão e programação em equipe. Cada grupo de projeto segue uma estrutura baseada no framework Scrum, permitindo a vivência de um ambiente próximo ao mercado de trabalho.</p>
       <p>Os times API são organizados com três papéis principais: o Scrum Master, o Product Owner (PO) e o Time de Desenvolvimento. O Scrum Master é responsável por garantir que a equipe siga os princípios ágeis, facilitando as reuniões, removendo impedimentos e promovendo a produtividade e a organização do time. O PO (Product Owner) atua como o elo entre o time e o cliente (real ou simulado), sendo responsável por definir as prioridades do projeto, organizar o backlog de funcionalidades e garantir que as entregas estejam alinhadas às necessidades do usuário final. Já o Time de Desenvolvimento é composto pelos alunos programadores, analistas e designers, que constroem o sistema de forma colaborativa e iterativa, entregando incrementos funcionais ao longo dos sprints (ciclos curtos de trabalho).</p>
       <p>Uma das grandes inovações do modelo aplicado na FATEC SJC é a conexão direta dos projetos com empresas parceiras da região. Muitos dos desafios propostos aos alunos vêm de demandas reais de organizações que atuam em diversos setores — como logística, tecnologia, indústria e agronegócio. Essa parceria permite que os estudantes trabalhem em problemas concretos, entregando soluções que podem ser efetivamente aplicadas no ambiente empresarial. Além disso, os representantes das empresas participam como stakeholders durante o desenvolvimento, contribuindo com feedback e expectativas, o que enriquece ainda mais o processo de aprendizagem.</p>
-     `
+      <p><a href="https://sjc.fatec.sp.gov.br/aprendizagem-por-projetos-integrados#:~:text=A%20API%20(Aprendizagem%20por%20Projetos,at%C3%A9%20Primeiro%20Semestre%20de%202022" target="_blank" class="api-link">Conheça alguns dos projetos</a></p>
+      `
   },
   'Inova': {
     titulo: 'Agência Inova Paula Souza',
@@ -369,7 +439,7 @@ export const detalhesInfo = {
       <p>Dessa forma, a Inova Paula Souza representa um esforço sistemático para difundir a cultura empreendedora no ensino técnico e tecnológico paulista, ajudando a alinhar a formação dos alunos às demandas de uma economia baseada em inovação.</p>
      `
   },
-'SAE': {
+  'SAE': {
     titulo: 'SAE Aerodesign',
     conteudo: `
        <img src="statics/imgs/pictures/SAEDois.png" alt="BAJA" class="info-image">
@@ -389,7 +459,7 @@ export const detalhesInfo = {
       <p>O HackaTruck representa, assim, uma ponte entre a formação acadêmica e as demandas reais da transformação digital.</p>
      `
   },
-  'guri': {
+  'info-guri': {
     titulo: 'A Incorporação da Aeronave AMT-600 Guri à Infraestrutura Didática da FATEC São José dos Campos',
     conteudo: `
        <img src="../statics/imgs/pictures/GURI/guri(1).jpg" alt="GURI" class="info-image">
@@ -397,33 +467,28 @@ export const detalhesInfo = {
        <p>A aeronave, fabricada em 2008 pela empresa brasileira AEROMOT, havia sido originalmente adquirida por meio do Projeto de Cooperação Técnica Internacional. Entretanto, após um incidente durante o voo de translado para o Aeroclube do Rio Grande do Sul (ARGS), com apenas três horas de operação, o equipamento permaneceu inoperante e estacionado por vários anos.</p>
        <p>O processo de obtenção foi iniciado por meio de articulações institucionais com a ANAC, culminando na emissão do Termo de Doação em janeiro de 2016. A logística de transporte envolveu o apoio de diferentes entidades, destacando-se a colaboração da Pontifícia Universidade Católica do Rio Grande do Sul (PUC-RS), do Comando da Aeronáutica (COMAER), do Departamento de Ciência e Tecnologia Aeroespacial (DCTA) e da Base Aérea de Canoas. A ação conjunta dessas instituições possibilitou o translado terrestre da aeronave até o campus da FATEC.</p>
        <p>A chegada da aeronave Guri não apenas enriqueceu o acervo técnico-pedagógico da instituição, mas também promoveu grande engajamento entre professores e alunos, incentivando a aprendizagem por meio da vivência prática em situações reais de manutenção e operação aeronáutica.</p>
-       <div class="info-sources">
-         <p>Fonte de Informações:</p>
-         <p>Prof. Felix Strottmann – Coordenador do Curso de Tecnologia em Manutenção de Aeronaves - FATEC – Faculdade de São José dos Campos – Prof. Jessen Vidal – 21/Setembro/2016.</p>
-       </div>
-     `,
+             <p><a href="https://pt.wikipedia.org/wiki/Aeromot_AMT-600_Guri" target="_blank" class="guri-link">AMT-600 Guri Wikipedia</a></p>
+
+       `,
   },
-  'brasilia': {
+  'info-brasilia': {
     titulo: 'EMB-120 Brasília: Desenvolvimento, Impacto e Legado da Aviação Regional Brasileira',
     conteudo: `
-       <img src="../statics/imgs/pictures/EMB-120/EMB-120(5).png" alt="EMB-120" class="info-image">
-       <p>O EMB-120 Brasília representa um dos marcos mais relevantes da indústria aeronáutica brasileira. Desenvolvido pela Embraer no início da década de 1980, o modelo foi concebido para atender ao mercado regional com uma aeronave turboélice pressurizada, eficiente e de alta confiabilidade. Com capacidade para 30 passageiros, a aeronave é equipada com dois motores Pratt & Whitney Canada PW118A, alcançando velocidades superiores a 580 km/h e operando a altitudes de até 25 mil pés.</p>
-       <p>O desenvolvimento do EMB-120 teve como base o programa EMB-12X, que previa uma família de aeronaves com fuselagem comum em diferentes configurações. Embora apenas o EMB-121 Xingu tenha sido efetivamente fabricado inicialmente, a crescente demanda por transporte regional impulsionou a criação do Brasília, cujo primeiro voo ocorreu em julho de 1983. A Embraer adotou sistemas avançados para a época, como o EFIS, e rapidamente conquistou certificações internacionais, o que permitiu sua comercialização em diversos países.</p>
-       <p>Durante sua vida operacional, foram desenvolvidas versões aprimoradas como a HOT & HIGH (1986), voltada para operações em ambientes extremos; a Enhanced Range (1992), com maior autonomia e capacidade de carga; e a versão Advanced (1994), que trouxe melhorias significativas em conforto, manutenção e operação em pistas não pavimentadas.</p>
-       <p>Com mais de 350 unidades produzidas, o EMB-120 somou mais de quatro milhões de horas de voo e transportou mais de 60 milhões de passageiros. No Brasil, teve papel fundamental na integração regional aérea, sendo utilizado por diversas companhias nacionais. Sua relevância foi reconhecida internacionalmente, sendo eleito "Top Regional Airliner" nos EUA por três anos consecutivos.</p>
-       <p>Em 2012, a aeronave EMB 120.167 foi doada pela Embraer à FATEC São José dos Campos – Prof. Jessen Vidal, contribuindo diretamente para o aprimoramento da formação técnica e prática dos estudantes da área de manutenção aeronáutica.</p>
-       <div class="info-sources">
-         <p>Fonte Bibliográfica:</p>
-         <p><a href="http://www1.folha.uol.com.br/folha/turismo/preparese/aviao-embraer_brasilia.shtml" target="_blank" class="jessen-link">http://www1.folha.uol.com.br/folha/turismo/preparese/aviao-embraer_brasilia.shtml</a></p>
-         <p>Marcos Resende* Especial para a Folha Online</p>
-         <p>Prof. Felix A. Strottmann - FATEC</p>
-       </div>
+       <img src="../statics/imgs/pictures/EMB-120/EMB-120(6).png" alt="EMB-120" class="info-image">
+       <p>O EMB-120 Brasília foi um marco fundamental no desenvolvimento da indústria aeroespacial brasileira, representando um salto tecnológico e estratégico na história da Embraer. Lançado no início da década de 1980, o projeto surgiu como uma resposta à crescente demanda por aeronaves regionais pressurizadas com capacidade entre 30 e 40 passageiros. Após o sucesso do EMB-110 Bandeirante, a Embraer buscava consolidar-se no mercado internacional com uma aeronave moderna, eficiente e adaptável às mais diversas condições operacionais.</p>
+       <p>O desenvolvimento do Brasília teve início em 1979, com os primeiros estudos e simulações de mercado. O projeto ganhou força em 1980 e culminou no primeiro voo do protótipo em 29 de julho de 1983. Já em 1985, o modelo entrou em operação comercial, sendo adotado por empresas nacionais e internacionais, com destaque para a norte-americana Atlantic Southeast Airlines, que foi um dos primeiros grandes clientes. Seu sucesso foi imediato, graças ao desempenho superior entre os turboélices da época, à sua velocidade de cruzeiro elevada, e ao conforto proporcionado por sua fuselagem pressurizada.</p>
+       <p>Do ponto de vista técnico, o EMB-120 Brasília é um turboélice bimotor de asa baixa, com configuração moderna e sistemas avançados para sua época. Com capacidade para aproximadamente 30 passageiros, ele foi projetado de acordo com os rigorosos padrões da FAA (FAR-25), o que permitiu sua ampla aceitação internacional. Além disso, versões como o EMB-120ER (Extended Range) incluíram melhorias como motores mais potentes e hélices quadripás, que aumentaram a eficiência e reduziram o ruído.</p>
+       <p>Durante seus anos de produção, foram entregues 352 unidades do Brasília, utilizadas por mais de 30 operadores em mais de 14 países. A aeronave não apenas cumpriu um papel essencial na integração regional brasileira — ao permitir a ligação entre centros urbanos de médio porte — como também contribuiu para a inserção da Embraer no mercado global de aviação comercial. Ele também foi adotado por forças armadas, incluindo a Força Aérea Brasileira, que o utilizou para transporte logístico, evacuação médica e transporte de autoridades.</p>
+       <p>O impacto econômico e tecnológico do EMB-120 Brasília foi significativo. Ele impulsionou a cadeia produtiva nacional, gerando empregos qualificados e promovendo a transferência de tecnologia. Além disso, estabeleceu um novo patamar de credibilidade para a Embraer, que passou a ser vista como uma concorrente legítima no cenário aeroespacial mundial. O sucesso do Brasília criou as bases para os projetos futuros da empresa, como a família de jatos regionais ERJ-145, que consolidou ainda mais a posição da Embraer no mercado internacional.</p>
+       <p>O legado do Brasília vai além de suas qualidades como aeronave. Ele simboliza a capacidade do Brasil de desenvolver, certificar e comercializar um produto tecnológico complexo em escala global. Mesmo após o fim da produção, em 2001, ele continua sendo lembrado como uma das aeronaves mais bem-sucedidas da categoria e um passo decisivo no fortalecimento da aviação regional, tanto no Brasil quanto em diversos outros países.</p>
+         <p><a href="https://1library.org/article/a-ind%C3%BAstria-aeroespacial-a-evolu%C3%A7%C3%A3o-poder-aeroespacial-brasileiro.9ynj6lkz?utm_source=chatgpt.com#google_vignette" target="_blank" class="emb-link">A Indústria Aeroespacial Library</a></p>
+         <p><a href="https://pt.wikipedia.org/wiki/Embraer_EMB_120?utm_source=chatgpt.com" target="_blank" class="emb-link">Embraer EMB 120 Wikipedia</a></p>
      `,
   },
-  'helicoptero': {
+  'info-helicoptero': {
     titulo: 'Evolução e Contribuições do Laboratório de Asas Rotativas e Drones da FATEC-SJC para a Formação Tecnológica em Aviação',
     conteudo: `
-       <img src="../statics/imgs/pictures/Laboratorio/galpao.png" alt="Laboratórios" class="info-image">
+       <img src="../statics/imgs/pictures/galpao.png" alt="Laboratórios" class="info-image">
        <p>O Laboratório de Asas Rotativas e Drones da FATEC São José dos Campos – Prof. Jessen Vidal tem desempenhado um papel estratégico na formação prática e tecnológica de estudantes dos cursos da área aeronáutica. Desde sua criação, a infraestrutura do laboratório tem evoluído continuamente com a aquisição e integração de componentes reais de helicópteros, simulações estruturais e desenvolvimento de projetos de engenharia, com foco em asas rotativas e sistemas não tripulados.</p>
        <p>As atividades tiveram início em 2016 com a incorporação de partes de aeronaves como o rotor do Schweizer 300 CB, Pantera AS 365K, Esquilo AS 350B e trem de pouso auxiliar do Pantera AS356, muitos deles adquiridos em parceria com a empresa Brascopter Projetos Aeronáuticos e Mecânicos Ltda.</p>
        <p>Entre 2017 e 2019, o laboratório ampliou suas atividades com a participação em competições como a Fórmula Drone SAE, e com a inauguração oficial do espaço no 1º semestre de 2018. Nesse período, destaca-se a instalação experimental de pás de madeira de balsa e testes mecânicos com o conjunto de "skid", cujo comportamento foi analisado por meio de gráficos de força versus deslocamento.</p>
