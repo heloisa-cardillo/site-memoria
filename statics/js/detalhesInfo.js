@@ -3,30 +3,8 @@ export const detalhesInfo = {
     titulo: 'Eventos e Programas da Fatec',
     conteudo: `
     <div class="card-container">
-      <article class="card">
-        <div class="card-image-container">
-          <img src="statics/imgs/pictures/BAJA.jpeg" alt="BAJA" class="card-image" loading="lazy">
-        </div>
-        <div class="card-content">
-          <h3 class="card-title">BAJA SAE BRASIL</h3>
-          <p class="card-text">O Projeto Baja é desenvolvido por alunos dos cursos de Engenharia e Física, entre outros,
-            no intuito de aplicar os conceitos aprendidos em sala de aula para projetar, construir e desenvolver um
-            protótipo no estilo off-road para competir entre as equipes.</p>
-          <a href="#" class="saiba-mais" data-id="baja">Saiba +</a>
-        </div>
-      </article>
-      <article class="card">
-        <div class="card-image-container">
-          <img src="statics/imgs/icones/interFatecs.png" alt="InterFatecs" class="card-image" loading="lazy">
-        </div>
-        <div class="card-content">
-          <h3 class="card-title">Maratona InterFatecs</h3>
-          <p class="card-text"> Competição anual de programação que reúne equipes de estudantes das Fatecs para resolver
-           desafios complexos em linguagens como C, Java e Python. O evento combina fases online e uma final presencial,
-           além de oferecer palestras, oficinas e oportunidades de networking.</p>
-          <a href="#" class="saiba-mais" data-id="InterFatecs">Saiba +</a>
-        </div>
-      </article>
+
+     </article>
       <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/icones/API.png" alt="API" class="card-image" loading="lazy">
@@ -38,40 +16,8 @@ export const detalhesInfo = {
            que conectam estudantes, empresas e a comunidade.</p>
           <a href="#" class="saiba-mais" data-id="API">Saiba +</a>
         </div>
-      </article>
-       <article class="card">
-        <div class="card-image-container">
-          <img src="statics/imgs/pictures/HackaTruck.png" alt="HackaTruck" class="card-image" loading="lazy">
-        </div>
-        <div class="card-content">
-          <h3 class="card-title">Projeto HackaTruck (IoT e prototipagem móvel)</h3>
-          <p class="card-text"> Um laboratório móvel itinerante que leva tecnologia de ponta e capacitação prática em Internet das Coisas,
-          programação e prototipagem para estudantes de diversas regiões do Brasil, promovendo inclusão digital e inovação.</p>
-          <a href="#" class="saiba-mais" data-id="HackaTruck">Saiba +</a>
-        </div>
-      </article>
-       <article class="card">
-        <div class="card-image-container">
-          <img src="statics/imgs/icones/Inova.png" alt="Inova" class="card-image" loading="lazy">
-        </div>
-        <div class="card-content">
-          <h3 class="card-title">Agência Inova Paula Souza</h3>
-          <p class="card-text"> Criada para impulsionar a inovação e o empreendedorismo nas Fatecs e Etecs, a Agência oferece cursos e programas
-          que ajudam alunos a transformar ideias em negócios, aproximando-os do mercado e fortalecendo o ecossistema tecnológico.</p>
-          <a href="#" class="saiba-mais" data-id="Inova">Saiba +</a>
-        </div>
-      </article>
-       <article class="card">
-        <div class="card-image-container">
-          <img src="statics/imgs/icones/SAE.png" alt="SAE" class="card-image" loading="lazy">
-        </div>
-        <div class="card-content">
-          <h3 class="card-title">SAE Aerodesign</h3>
-          <p class="card-text"> Competição internacional que desafia estudantes a projetar, construir e testar aeronaves radiocontroladas, combinando
-          conhecimentos técnicos, gestão de projetos e trabalho em equipe, realizada em São José dos Campos, polo aeroespacial do Brasil.</p>
-          <a href="#" class="saiba-mais" data-id="SAE">Saiba +</a>
-        </div>
-      </article>
+        </article>
+
      <article class="card">
         <div class="card-image-container">
           <img src="statics/imgs/pictures/EMB-120/EMB-120.png" alt="EMB-120" class="card-image" loading="lazy">
@@ -85,7 +31,68 @@ export const detalhesInfo = {
           <a href="#" class="saiba-mais" data-id="aeronaves">Saiba +</a>
         </div>
       </article>
-    
+
+        <article class="card">
+        <div class="card-image-container">
+          <img src="statics/imgs/icones/parceiro_inova.png" alt="Inova" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Agência Inova Paula Souza</h3>
+          <p class="card-text"> Criada para impulsionar a inovação e o empreendedorismo nas Fatecs e Etecs, a Agência oferece cursos e programas
+          que ajudam alunos a transformar ideias em negócios, aproximando-os do mercado e fortalecendo o ecossistema tecnológico.</p>
+          <a href="#" class="saiba-mais" data-id="Inova">Saiba +</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image-container">
+          <img src="statics/imgs/pictures/interFatecDois.png" alt="InterFatecs" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Maratona InterFatecs</h3>
+          <p class="card-text"> Competição anual de programação que reúne equipes de estudantes das Fatecs para resolver
+           desafios complexos em linguagens como C, Java e Python. O evento combina fases online e uma final presencial,
+           além de oferecer palestras, oficinas e oportunidades de networking.</p>
+          <a href="#" class="saiba-mais" data-id="InterFatecs">Saiba +</a>
+        </div>
+         </article>
+
+         <article class="card">
+        <div class="card-image-container">
+          <img src="statics/imgs/pictures/BAJA.jpeg" alt="BAJA" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">BAJA SAE BRASIL</h3>
+          <p class="card-text">O Projeto Baja é desenvolvido por alunos dos cursos de Engenharia e Física, entre outros,
+            no intuito de aplicar os conceitos aprendidos em sala de aula para projetar, construir e desenvolver um
+            protótipo no estilo off-road para competir entre as equipes.</p>
+          <a href="#" class="saiba-mais" data-id="baja">Saiba +</a>
+        </div>
+      </article>
+
+       <article class="card">
+        <div class="card-image-container">
+          <img src="statics/imgs/pictures/HackaTruck.png" alt="HackaTruck" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Projeto HackaTruck (IoT e prototipagem móvel)</h3>
+          <p class="card-text"> Um laboratório móvel itinerante que leva tecnologia de ponta e capacitação prática em Internet das Coisas,
+          programação e prototipagem para estudantes de diversas regiões do Brasil, promovendo inclusão digital e inovação.</p>
+          <a href="#" class="saiba-mais" data-id="HackaTruck">Saiba +</a>
+        </div>
+      </article>
+
+       <article class="card">
+        <div class="card-image-container">
+          <img src="statics/imgs/icones/SAE.png" alt="SAE" class="card-image" loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">SAE Aerodesign</h3>
+          <p class="card-text"> Competição internacional que desafia estudantes a projetar, construir e testar aeronaves radiocontroladas, combinando
+          conhecimentos técnicos, gestão de projetos e trabalho em equipe, realizada em São José dos Campos, polo aeroespacial do Brasil.</p>
+          <a href="#" class="saiba-mais" data-id="SAE">Saiba +</a>
+        </div>
+        </article>
     </div>
   `
   },
@@ -257,7 +264,7 @@ export const detalhesInfo = {
          <img src="statics/imgs/icones/centrosMemorias.png" alt="Centros de Memória" class="card-image" loading="lazy">
        </div>
        <div class="card-content">
-         <h3 class="card-title">Fatecs</h3>
+         <h3 class="card-title">Centros de Memórias das Fatecs</h3>
          <p class="card-text">Desde 2008, professores e alunos atuam nos Centros de Memória de Etecs e Fatecs, organizando acervos históricos. Hoje são 18 centros em Etecs, 1 em Fatec e 6 acervos em pesquisa e curadoria ativa.</p>
          <a href="#" class="saiba-mais" data-id="centros-Fatecs">Saiba +</a>
        </div>
@@ -292,17 +299,41 @@ export const detalhesInfo = {
   'centro-memorias': {
     titulo: 'Centro de Memórias da FATEC',
     conteudo: `
-       <img src="statics/imgs/pictures/fatec centro memoria.jpg" alt="Centro de Memórias" class="info-image">
-       <p>O Centro de Memórias da FATEC São José dos Campos foi criado pela Portaria 01 de 30/06/2022, com o objetivo de resgatar e preservar a memória da instituição por meio de inventário, acervo e ações culturais ligadas à história da educação tecnológica.</p>
-       <p>Este projeto visa documentar a trajetória da instituição, seus professores, alunos e contribuições para o desenvolvimento tecnológico da região.</p>
-       <br>
-       <p> Desenvolvedores da Pagina do Centro de Memorias da Fatec São José dos Campos:</p>
-       <p> Heloisa Cardillo Lima 
-       <p><a href="https://github.com/heloisa-cardillo" target="_blank" class="heloisa-link">Github</a></p>
-       <p>João Vitor Silva Correia Siqueira</p>
-       <p><a href="https://github.com/kakashinho" target="_blank" class="heloisa-link">Github</a></p>
-     `
+    <img src="statics/imgs/pictures/fatec centro memoria.jpg" alt="Centro de Memórias" class="info-image">
+    <p>O Centro de Memórias da FATEC São José dos Campos foi criado pela Portaria 01 de 30/06/2022, com o objetivo de resgatar e preservar a memória da instituição por meio de inventário, acervo e ações culturais ligadas à história da educação tecnológica.</p>
+    <p>Este projeto visa documentar a trajetória da instituição, seus professores, alunos e contribuições para o desenvolvimento tecnológico da região.</p> 
+    <br>
+
+    <p style="font-size:14px; margin: 0 0 8px 0;">Desenvolvedores da Página do Centro de Memórias da Fatec São José dos Campos:</p>
+    
+    <div style="display: flex; align-items: center; gap: 8px; font-size:14px; margin-bottom: 8px;">
+      <span>Heloisa Cardillo Lima</span>
+      <a href="mailto:heloisacardillo@gmail.com" style="margin-left:8px;">
+        <img src="statics/imgs/icones/emailVerde.png" alt="Email" width="24" height="24">
+      </a>
+      <a href="https://www.linkedin.com/in/heloisa-cardillo-lima/" target="_blank" style="margin-left:8px;">
+        <img src="statics/imgs/icones/linkedinVerde.png" alt="LinkedIn" width="24" height="24">
+      </a>
+      <a href="https://github.com/heloisa-cardillo" target="_blank" style="margin-left:8px;">
+        <img src="statics/imgs/icones/githubVerde.png" alt="GitHub" width="24" height="24">
+      </a>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 8px; font-size:14px;">
+      <span>João Vitor Silva Correia Siqueira</span>
+      <a href="mailto:joaovitor.s.c.siqueira@gmail.com" style="margin-left:8px;">
+        <img src="statics/imgs/icones/emailVerde.png" alt="Email" width="24" height="24">
+      </a>
+      <a href="https://www.linkedin.com/in/joao-vitor-siqueira-a2a2a3227/" target="_blank" style="margin-left:8px;">
+        <img src="statics/imgs/icones/linkedinVerde.png" alt="LinkedIn" width="24" height="24">
+      </a>
+      <a href="https://github.com/kakashinho" target="_blank" style="margin-left:8px;">
+        <img src="statics/imgs/icones/githubVerde.png" alt="GitHub" width="24" height="24">
+      </a>
+    </div>
+  `
   },
+
   'video-centro-memorias': {
     titulo: 'Vídeo do Centro de Memórias',
     conteudo: `

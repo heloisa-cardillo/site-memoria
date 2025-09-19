@@ -7,20 +7,20 @@ document.addEventListener('DOMContentLoaded', function () {
   const historicoInfo = []
   let idAtual = null
 
-if (secaoInformacoes) {
-        console.log('Seção de informações detalhadas encontrada');
+  if (secaoInformacoes) {
+    console.log('Seção de informações detalhadas encontrada');
 
-        // Função global para mostrar informações detalhadas 
-        window.mostrarInformacoes = function (infoId, detalhesInfo, ehVoltar = false) {
-          if (!detalhesInfo[infoId]) return
-          else if (!ehVoltar && idAtual && idAtual !== infoId) {
-            historicoInfo.push(idAtual)
-          }
-          // Atualiza o ID atual
-          idAtual = infoId;
-          
-          // Insere o conteúdo detalhado na seção HTML dinamicamente
-          secaoInformacoes.innerHTML = `
+    // Função global para mostrar informações detalhadas 
+    window.mostrarInformacoes = function (infoId, detalhesInfo, ehVoltar = false) {
+      if (!detalhesInfo[infoId]) return
+      else if (!ehVoltar && idAtual && idAtual !== infoId) {
+        historicoInfo.push(idAtual)
+      }
+      // Atualiza o ID atual
+      idAtual = infoId;
+
+      // Insere o conteúdo detalhado na seção HTML dinamicamente
+      secaoInformacoes.innerHTML = `
             <div class="info-container">
               <h2 class="info-title">${detalhesInfo[infoId].titulo}</h2>
               <div class="info-content">
@@ -34,61 +34,61 @@ if (secaoInformacoes) {
               </div>
             </div>
           `
-          
-          secaoInformacoes.style.display = 'block'
-          secaoInformacoes.scrollIntoView({ behavior: 'smooth' });
 
-          // Para cada link com 'saiba-mais' dentro da seção, adiciona evento de clique para mostrar mais detalhes
-          const novosLinks = secaoInformacoes.querySelectorAll('.saiba-mais');
-          novosLinks.forEach(link => {
-            link.addEventListener('click', function (e) {
-              e.preventDefault()
-              const novoId = this.getAttribute('data-id')
-              if (detalhesInfo[novoId]) {
-                console.log('Detalhes encontrados para o ID:', detalhesInfo[novoId]);
-                window.mostrarInformacoes(novoId, detalhesInfo);
-              }else{
-                console.warn('Nenhum detalhe encontrado para o ID:', novoId);
-              }
-            });
-          });
+      secaoInformacoes.style.display = 'block'
+      secaoInformacoes.scrollIntoView({ behavior: 'smooth' });
 
-          // Botão Fechar para esconder a seção
-          const botaoFechar = document.getElementById('fechar-info');
-          if (botaoFechar) {
-            botaoFechar.addEventListener('click', function () {
-              secaoInformacoes.style.display = 'none'
-            });
+      // Para cada link com 'saiba-mais' dentro da seção, adiciona evento de clique para mostrar mais detalhes
+      const novosLinks = secaoInformacoes.querySelectorAll('.saiba-mais');
+      novosLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault()
+          const novoId = this.getAttribute('data-id')
+          if (detalhesInfo[novoId]) {
+            console.log('Detalhes encontrados para o ID:', detalhesInfo[novoId]);
+            window.mostrarInformacoes(novoId, detalhesInfo);
+          } else {
+            console.warn('Nenhum detalhe encontrado para o ID:', novoId);
           }
+        });
+      });
 
-          // Botão Voltar para retornar à última informação mostrada no histórico
-          const botaoVoltar = document.getElementById('voltar-info');
-          if (botaoVoltar) {
-            botaoVoltar.addEventListener('click', function () {
-              const idAnterior = historicoInfo.pop()
-
-              if (idAnterior && detalhesInfo[idAnterior]) {
-                window.mostrarInformacoes(idAnterior, detalhesInfo, true);
-              }else {
-                secaoInformacoes.style.display = 'none'
-                idAtual = null
-              }
-            });
-          }
-        };
-
-        // Ativa os links "Saiba mais" iniciais da página para que disparem mostrarInformacoes ao clicá-los
-        const saibaMaisLinks = document.querySelectorAll('.saiba-mais')
-        saibaMaisLinks.forEach(link => {
-          link.addEventListener('click', function (e) {
-            e.preventDefault();
-            const infoId = this.getAttribute('data-id')
-            if (detalhesInfo[infoId]) {
-              window.mostrarInformacoes(infoId, detalhesInfo)
-            }
-          });
+      // Botão Fechar para esconder a seção
+      const botaoFechar = document.getElementById('fechar-info');
+      if (botaoFechar) {
+        botaoFechar.addEventListener('click', function () {
+          secaoInformacoes.style.display = 'none'
         });
       }
+
+      // Botão Voltar para retornar à última informação mostrada no histórico
+      const botaoVoltar = document.getElementById('voltar-info');
+      if (botaoVoltar) {
+        botaoVoltar.addEventListener('click', function () {
+          const idAnterior = historicoInfo.pop()
+
+          if (idAnterior && detalhesInfo[idAnterior]) {
+            window.mostrarInformacoes(idAnterior, detalhesInfo, true);
+          } else {
+            secaoInformacoes.style.display = 'none'
+            idAtual = null
+          }
+        });
+      }
+    };
+
+    // Ativa os links "Saiba mais" iniciais da página para que disparem mostrarInformacoes ao clicá-los
+    const saibaMaisLinks = document.querySelectorAll('.saiba-mais')
+    saibaMaisLinks.forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const infoId = this.getAttribute('data-id')
+        if (detalhesInfo[infoId]) {
+          window.mostrarInformacoes(infoId, detalhesInfo)
+        }
+      });
+    });
+  }
 
   const saibaMaisLinks = document.querySelectorAll('.saiba-mais')
 
@@ -123,8 +123,8 @@ if (secaoInformacoes) {
             infoId = 'laboratorios'
           }
         }
-        
-         // Se tem ID e detalhes disponíveis, mostra as informações; senão, mostra alerta
+
+        // Se tem ID e detalhes disponíveis, mostra as informações; senão, mostra alerta
         if (infoId && detalhesInfo[infoId]) {
           window.mostrarInformacoes(infoId, detalhesInfo);
         } else {
