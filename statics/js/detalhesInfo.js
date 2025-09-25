@@ -278,8 +278,8 @@ export const detalhesInfo = {
        <img src="statics/imgs/icones/memorias.jpg" alt="Centro de Memórias" class="info-image">
        <p>Desde 2008, os Centros de Memória contam com a curadoria de professores responsáveis por projetos anuais. Atualmente, são dezoito Centros de Memória em escolas técnicas e um em faculdade de tecnologia, e mais seis acervos históricos, com professores e estudantes pesquisando e organizando acervos arquivísticos, bibliográficos e museológicos existentes nas escolas técnicas e nas faculdades de tecnologia.</p>
        <p>Este projeto visa documentar a trajetória da instituição, seus professores, alunos e contribuições para o desenvolvimento tecnológico da região.</p>
-       <p><a href="https://memorias.cpscetec.com.br/centroMemoria.php" target="_blank" class="centros-link">Projeto Centro de Memórias da Fatec</a></p>
-       <p><a href="https://memorias.cpscetec.com.br/centroLista.php" target="_blank" class="centros-link">Conheça o Centro de Memórias de cada Fatec</a></p>
+       <p><a href="https://memorias.cpscetec.com.br/centroMemoria.php" target="_blank" rel="noopener noreferrer" class="centros-link">Projeto Centro de Memórias da Fatec</a></p>
+       <p><a href="https://memorias.cpscetec.com.br/centroLista.php" target="_blank" rel="noopener noreferrer" class="centros-link">Conheça o Centro de Memórias de cada Fatec</a></p>
      `
   },
   'infoFatecs': {
@@ -293,7 +293,7 @@ export const detalhesInfo = {
        <p>Entre os principais benefícios das Fatecs estão o ensino gratuito, a alta empregabilidade dos formandos e a forte integração com o setor produtivo. Os cursos são reconhecidos tanto academicamente quanto pelo mercado, o que torna a instituição uma referência na educação tecnológica no Brasil.<p>
        <p>Desde 2008, os Centros de Memória contam com a curadoria de professores responsáveis por projetos anuais. Atualmente, são dezoito Centros de Memória em escolas técnicas e um em faculdade de tecnologia, e mais seis acervos históricos, com professores e estudantes pesquisando e organizando acervos arquivísticos, bibliográficos e museológicos existentes nas escolas técnicas e nas faculdades de tecnologia.</p>
        <p>Este projeto visa documentar a trajetória da instituição, seus professores, alunos e contribuições para o desenvolvimento tecnológico da região.</p>
-       <p><a href="https://www.cps.sp.gov.br/fatec/" target="_blank" class="fatecs-link">Fatec Paula Souza</a></p>
+       <p><a href="https://www.cps.sp.gov.br/fatec/" target="_blank" rel="noopener noreferrer" class="fatecs-link">Fatec Paula Souza</a></p>
      `
   },
   'centro-memorias': {
@@ -311,10 +311,10 @@ export const detalhesInfo = {
       <a href="mailto:heloisacardillo@gmail.com" style="margin-left:8px;">
         <img src="statics/imgs/icones/emailVerde.png" alt="Email" width="24" height="24">
       </a>
-      <a href="https://www.linkedin.com/in/heloisa-cardillo-lima/" target="_blank" style="margin-left:8px;">
+      <a href="https://www.linkedin.com/in/heloisa-cardillo-lima/" target="_blank" rel="noopener noreferrer" style="margin-left:8px;">
         <img src="statics/imgs/icones/linkedinVerde.png" alt="LinkedIn" width="24" height="24">
       </a>
-      <a href="https://github.com/heloisa-cardillo" target="_blank" style="margin-left:8px;">
+      <a href="https://github.com/heloisa-cardillo" target="_blank" rel="noopener noreferrer" style="margin-left:8px;">
         <img src="statics/imgs/icones/githubVerde.png" alt="GitHub" width="24" height="24">
       </a>
     </div>
@@ -324,10 +324,10 @@ export const detalhesInfo = {
       <a href="mailto:joaovitor.s.c.siqueira@gmail.com" style="margin-left:8px;">
         <img src="statics/imgs/icones/emailVerde.png" alt="Email" width="24" height="24">
       </a>
-      <a href="https://www.linkedin.com/in/joao-vitor-siqueira-a2a2a3227/" target="_blank" style="margin-left:8px;">
+      <a href="https://www.linkedin.com/in/joao-vitor-siqueira-a2a2a3227/" target="_blank" rel="noopener noreferrer" style="margin-left:8px;">
         <img src="statics/imgs/icones/linkedinVerde.png" alt="LinkedIn" width="24" height="24">
       </a>
-      <a href="https://github.com/kakashinho" target="_blank" style="margin-left:8px;">
+      <a href="https://github.com/kakashinho" target="_blank" rel="noopener noreferrer" style="margin-left:8px;">
         <img src="statics/imgs/icones/githubVerde.png" alt="GitHub" width="24" height="24">
       </a>
     </div>
@@ -352,9 +352,9 @@ export const detalhesInfo = {
    <p>O Prof. Jessen Vidal nasceu no município pernambucano de Guaranhuns, em 21 de novembro de 1930, filho de Sólon Vidal e Katy Leitão Vidal. Na infância e adolescência frequentou o Colégio Presbiteriano XV de Novembro de Guaranhuns e em 1950 veio para São José dos Campos para estudar no Instituto Tecnológico de Aeronáutica (ITA).</p>
    <p>Se formou Engenheiro Aeronáutico no ano de 1956, no ano de 1965, tirou o mestrado no ITA e em 1971 o doutorado na UNESP. Foi Professor Titular da Divisão de Aeronáutica do ITA, Professor Associado da Faculdade de Engenharia Mauá de 1965 a 1970. Reitor do ITA, de 1977 a 1982 e de 1989 a 1994 e Professor Titular e Diretor da Faculdade de Engenharia de Guaratinguetá, da UNESP.</p>
    <p>Foi membro do Conselho Deliberativo da FATEC de 1979 a 1981 e do Conselho Estadual de Educação de 1981 a 1984 e Secretário da Educação do Estado de São Paulo entre 1982 e 1983. Foi também conselheiro do CREA entre 1967 a 1971 e participou do conselho da FUNCATE no período de 1996 a 2007.</p>
-   <p><a href="http://www.aeitaonline.com.br/wiki/index.php?title=Jessen_Vidal" target="_blank" class="jessen-link">Wikepedia</a></p>
-   <p><a href="https://www.al.sp.gov.br/repositorio/legislacao/lei/2009/lei-13875-16.12.2009.html" target="_blank" class="jessen-link">Ficha Informativa - Assembleia Legislativa do Estado de São Paulo</a></p>
-   <p><a href="https://www.al.sp.gov.br/noticia/?id=262504" target="_blank" class="jessen-link">Homenagem - Assembleia Legislativa do Estado de São Paulo</a></p>
+   <p><a href="http://www.aeitaonline.com.br/wiki/index.php?title=Jessen_Vidal" target="_blank" rel="noopener noreferrer" class="jessen-link">Wikepedia</a></p>
+   <p><a href="https://www.al.sp.gov.br/repositorio/legislacao/lei/2009/lei-13875-16.12.2009.html" target="_blank" rel="noopener noreferrer" class="jessen-link">Ficha Informativa - Assembleia Legislativa do Estado de São Paulo</a></p>
+   <p><a href="https://www.al.sp.gov.br/noticia/?id=262504" target="_blank" rel="noopener noreferrer" class="jessen-link">Homenagem - Assembleia Legislativa do Estado de São Paulo</a></p>
  `
   },
   'fatec-sao-jose-campos': {
@@ -368,7 +368,7 @@ export const detalhesInfo = {
        <p>A Fatec SJC também mantém parcerias com empresas da região, o que amplia as oportunidades de estágios, projetos integradores e inserção dos alunos no mercado de trabalho. Além disso, a instituição estimula a participação dos estudantes em atividades extracurriculares, como grupos de pesquisa, eventos acadêmicos e iniciativas de inovação e empreendedorismo.
       Outro ponto importante é que a Fatec é gratuita e acessível por meio do vestibular organizado pela própria instituição em conjunto com o Centro Paula Souza. Com sua infraestrutura moderna, proposta pedagógica voltada para a prática e proximidade com o setor produtivo, a Fatec São José dos Campos se destaca como um polo de formação tecnológica e um espaço estratégico para quem busca carreira 
       sólida em áreas ligadas à ciência, tecnologia e inovação.</p>
-       <p><a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank" class="parque-link">Fatec São José dos Campos</a></p>
+       <p><a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank" rel="noopener noreferrer" class="parque-link">Fatec São José dos Campos</a></p>
      `
   },
   'parque-tecnologico': {
@@ -377,8 +377,8 @@ export const detalhesInfo = {
        <img src="statics/imgs/pictures/ParqueTecnologico2.png" alt="Parque Tecnológico" class="info-image">
        <p>O Parque Tecnológico São José dos Campos foi instituído pelo Decreto Municipal nº 12.367/2006, sendo um ambiente de inovação que abriga empresas de tecnologia, centros de pesquisa e instituições de ensino.</p>
        <p>A FATEC São José dos Campos está localizada dentro do Parque Tecnológico, o que proporciona aos alunos e professores um ambiente privilegiado para o desenvolvimento de projetos e pesquisas em parceria com empresas e instituições.</p>
-       <p><a href="https://pitsjc.org.br/" target="_blank" class="parque-link">Site do Parque Tecnológico</a></p>
-       <p><a href="https://beacons.ai/pitsjc" target="_blank" class="parque-link">Redes Sociais do Parque Tecnológico</a></p>
+       <p><a href="https://pitsjc.org.br/" target="_blank" rel="noopener noreferrer" class="parque-link">Site do Parque Tecnológico</a></p>
+       <p><a href="https://beacons.ai/pitsjc" target="_blank" rel="noopener noreferrer" class="parque-link">Redes Sociais do Parque Tecnológico</a></p>
      `
   },
   'cesar-lattes': {
@@ -388,9 +388,9 @@ export const detalhesInfo = {
        <p>Cesar Lattes (1924-2005) foi um físico brasileiro, considerado um dos cientistas mais importantes do país. Formou-se em física e matemática pela Universidade de São Paulo (USP).</p>
        <p>Seu trabalho mais conhecido foi a descoberta do méson pi (ou píon), uma partícula subatômica, realizada em 1947 quando tinha apenas 23 anos. Esta descoberta foi fundamental para o avanço da física nuclear e de partículas.</p>
        <p>Em sua homenagem, foi criada a Plataforma Lattes, sistema de currículos acadêmicos mantido pelo CNPq que se tornou padrão nacional para o registro da vida acadêmica de estudantes e pesquisadores do Brasil.</p>
-         <p><a href="https://pt.wikipedia.org/wiki/C%C3%A9sar_Lattes#CITEREFLeite_Vieira2019" target="_blank" class="jessen-link">Wikpedia</a></p>
-         <p><a href="https://www.ebiografia.com/cesar_lattes/" target="_blank" class="jessen-link">Biografia</a></p>
-         <p><a href="https://educacao.uol.com.br/biografias/cesar-lattes.htm" target="_blank" class="jessen-link">Reportagem UOL</a></p>
+         <p><a href="https://pt.wikipedia.org/wiki/C%C3%A9sar_Lattes#CITEREFLeite_Vieira2019" target="_blank" rel="noopener noreferrer" class="jessen-link">Wikpedia</a></p>
+         <p><a href="https://www.ebiografia.com/cesar_lattes/" target="_blank" rel="noopener noreferrer" class="jessen-link">Biografia</a></p>
+         <p><a href="https://educacao.uol.com.br/biografias/cesar-lattes.htm" target="_blank" rel="noopener noreferrer" class="jessen-link">Reportagem UOL</a></p>
      `
   },
   'paula-souza': {
@@ -399,8 +399,8 @@ export const detalhesInfo = {
        <img src="statics/imgs/pessoas/souza/souza.png" alt="Paula Souza" class="info-image">
        <p>Antônio Francisco de Paula Souza (1843-1917) foi um engenheiro e político brasileiro, formado na Europa. Destacou-se pela contribuição à educação técnica no país, tendo sido o fundador da Escola Politécnica de São Paulo (atual Poli-USP).</p>
        <p>Foi diretor da instituição por 24 anos e defendeu uma educação técnica voltada ao desenvolvimento nacional. Seu legado inspirou a criação do Centro Estadual de Educação Tecnológica Paula Souza (CEETEPS) em 1969, instituição que administra as FATECs e ETECs do estado de São Paulo.</p>
-         <p><a href="https://www.poli.usp.br/institucional/diretoria/galeria-de-diretores/prof-dr-antonio-francisco-de-paula-souza" target="_blank" class="jessen-link">Escola Politécnica USP</a></p>
-         <p><a href="https://www.cps.sp.gov.br/sobre-o-centro-paula-souza/" target="_blank" class="jessen-link">Centro Paula Souza</a></p>
+         <p><a href="https://www.poli.usp.br/institucional/diretoria/galeria-de-diretores/prof-dr-antonio-francisco-de-paula-souza" target="_blank" rel="noopener noreferrer" class="jessen-link">Escola Politécnica USP</a></p>
+         <p><a href="https://www.cps.sp.gov.br/sobre-o-centro-paula-souza/" target="_blank" rel="noopener noreferrer" class="jessen-link">Centro Paula Souza</a></p>
      `
   },
 
@@ -414,8 +414,8 @@ export const detalhesInfo = {
        Comunicações, entre 1990 e 1991. Nos anos 2000, presidiu a compilva anhia aérea Varig durante um período de crise na empresa.</p>
        <p>Fora da gestão de grandes organizações, Ozires também atuou na área acadêmica. Foi reitor da Universidade Monte Serrat (Unimonte), em Santos, entre 2008 e 2018, e posteriormente se tornou chanceler da Universidade São Judas. Ele é autor de vários livros voltados ao empreendedorismo, inovação e liderança, como 
        A Decolagem de um Sonho e Cartas a um Jovem Empreendedor. Ao longo de sua carreira, Ozires Silva se destacou como uma figura central na história da aviação brasileira e um defensor da ciência, tecnologia e educação como pilares do desenvolvimento nacional.</p>
-         <p><a href="https://pt.wikipedia.org/wiki/Ozires_Silva" target="_blank" class="ozires-link">Wikipédia</a></p>
-         <p><a href="https://oziressilva.com.br/" target="_blank" class="ozires-link">Site em homenagem a Ozires</a></p>
+         <p><a href="https://pt.wikipedia.org/wiki/Ozires_Silva" target="_blank" rel="noopener noreferrer" class="ozires-link">Wikipédia</a></p>
+         <p><a href="https://oziressilva.com.br/" target="_blank" rel="noopener noreferrer" class="ozires-link">Site em homenagem a Ozires</a></p>
      `
   },
 
@@ -426,9 +426,9 @@ export const detalhesInfo = {
        <p>O Projeto Baja SAE é desenvolvido por alunos de diversos cursos, principalmente Engenharia, com o objetivo de aplicar os conhecimentos teóricos em um projeto prático: projetar, construir e testar um veículo off-road.</p>
        <p>As equipes participam de competições nacionais e internacionais, onde são avaliadas em diversos aspectos, desde o projeto até o desempenho do veículo em provas dinâmicas e de resistência.</p>
        <p>Na FATEC São José dos Campos, o projeto Baja proporciona aos alunos a oportunidade de desenvolver habilidades técnicas e de gestão, trabalhando em equipe e aplicando conhecimentos de diversas áreas.</p>
-         <p><a href="https://saebrasil.org.br/programas-estudantis/baja-sae-brasil" target="_blank" class="jessen-link">BAJA SAE BRASIL – ETAPA NACIONAL</a></p>
-         <p><a href="https://www.cps.sp.gov.br/fatec-sao-jose-dos-campos-recebe-competicao-nacional-de-engenharia/" target="_blank" class="jessen-link">Fatec SJC recebe competição nacional de engenharia</a></p>
-         <p><a href="https://pt.wikipedia.org/wiki/F%C3%B3rmula_SAE" target="_blank" class="jessen-link">Society of Automotive Engineers</a></p>
+         <p><a href="https://saebrasil.org.br/programas-estudantis/baja-sae-brasil" target="_blank" rel="noopener noreferrer" class="jessen-link">BAJA SAE BRASIL – ETAPA NACIONAL</a></p>
+         <p><a href="https://www.cps.sp.gov.br/fatec-sao-jose-dos-campos-recebe-competicao-nacional-de-engenharia/" target="_blank" rel="noopener noreferrer" class="jessen-link">Fatec SJC recebe competição nacional de engenharia</a></p>
+         <p><a href="https://pt.wikipedia.org/wiki/F%C3%B3rmula_SAE" target="_blank" rel="noopener noreferrer" class="jessen-link">Society of Automotive Engineers</a></p>
      `
   },
 
@@ -457,7 +457,7 @@ export const detalhesInfo = {
       <p>Na FATEC de São José dos Campos, o Projeto API (Aprendizagem por Projetos Integrados) é um dos principais pilares pedagógicos dos cursos da área de tecnologia. O objetivo é que os alunos aprendam desenvolvendo soluções reais, desde o início da graduação, aplicando metodologias ágeis de gestão e programação em equipe. Cada grupo de projeto segue uma estrutura baseada no framework Scrum, permitindo a vivência de um ambiente próximo ao mercado de trabalho.</p>
       <p>Os times API são organizados com três papéis principais: o Scrum Master, o Product Owner (PO) e o Time de Desenvolvimento. O Scrum Master é responsável por garantir que a equipe siga os princípios ágeis, facilitando as reuniões, removendo impedimentos e promovendo a produtividade e a organização do time. O PO (Product Owner) atua como o elo entre o time e o cliente (real ou simulado), sendo responsável por definir as prioridades do projeto, organizar o backlog de funcionalidades e garantir que as entregas estejam alinhadas às necessidades do usuário final. Já o Time de Desenvolvimento é composto pelos alunos programadores, analistas e designers, que constroem o sistema de forma colaborativa e iterativa, entregando incrementos funcionais ao longo dos sprints (ciclos curtos de trabalho).</p>
       <p>Uma das grandes inovações do modelo aplicado na FATEC SJC é a conexão direta dos projetos com empresas parceiras da região. Muitos dos desafios propostos aos alunos vêm de demandas reais de organizações que atuam em diversos setores — como logística, tecnologia, indústria e agronegócio. Essa parceria permite que os estudantes trabalhem em problemas concretos, entregando soluções que podem ser efetivamente aplicadas no ambiente empresarial. Além disso, os representantes das empresas participam como stakeholders durante o desenvolvimento, contribuindo com feedback e expectativas, o que enriquece ainda mais o processo de aprendizagem.</p>
-      <p><a href="https://sjc.fatec.sp.gov.br/aprendizagem-por-projetos-integrados#:~:text=A%20API%20(Aprendizagem%20por%20Projetos,at%C3%A9%20Primeiro%20Semestre%20de%202022" target="_blank" class="api-link">Conheça alguns dos projetos</a></p>
+      <p><a href="https://sjc.fatec.sp.gov.br/aprendizagem-por-projetos-integrados#:~:text=A%20API%20(Aprendizagem%20por%20Projetos,at%C3%A9%20Primeiro%20Semestre%20de%202022" target="_blank" rel="noopener noreferrer" class="api-link">Conheça alguns dos projetos</a></p>
       `
   },
   'Inova': {
@@ -498,7 +498,7 @@ export const detalhesInfo = {
        <p>A aeronave, fabricada em 2008 pela empresa brasileira AEROMOT, havia sido originalmente adquirida por meio do Projeto de Cooperação Técnica Internacional. Entretanto, após um incidente durante o voo de translado para o Aeroclube do Rio Grande do Sul (ARGS), com apenas três horas de operação, o equipamento permaneceu inoperante e estacionado por vários anos.</p>
        <p>O processo de obtenção foi iniciado por meio de articulações institucionais com a ANAC, culminando na emissão do Termo de Doação em janeiro de 2016. A logística de transporte envolveu o apoio de diferentes entidades, destacando-se a colaboração da Pontifícia Universidade Católica do Rio Grande do Sul (PUC-RS), do Comando da Aeronáutica (COMAER), do Departamento de Ciência e Tecnologia Aeroespacial (DCTA) e da Base Aérea de Canoas. A ação conjunta dessas instituições possibilitou o translado terrestre da aeronave até o campus da FATEC.</p>
        <p>A chegada da aeronave Guri não apenas enriqueceu o acervo técnico-pedagógico da instituição, mas também promoveu grande engajamento entre professores e alunos, incentivando a aprendizagem por meio da vivência prática em situações reais de manutenção e operação aeronáutica.</p>
-             <p><a href="https://pt.wikipedia.org/wiki/Aeromot_AMT-600_Guri" target="_blank" class="guri-link">AMT-600 Guri Wikipedia</a></p>
+             <p><a href="https://pt.wikipedia.org/wiki/Aeromot_AMT-600_Guri" target="_blank" rel="noopener noreferrer" class="guri-link">AMT-600 Guri Wikipedia</a></p>
 
        `,
   },
@@ -512,8 +512,8 @@ export const detalhesInfo = {
        <p>Durante seus anos de produção, foram entregues 352 unidades do Brasília, utilizadas por mais de 30 operadores em mais de 14 países. A aeronave não apenas cumpriu um papel essencial na integração regional brasileira — ao permitir a ligação entre centros urbanos de médio porte — como também contribuiu para a inserção da Embraer no mercado global de aviação comercial. Ele também foi adotado por forças armadas, incluindo a Força Aérea Brasileira, que o utilizou para transporte logístico, evacuação médica e transporte de autoridades.</p>
        <p>O impacto econômico e tecnológico do EMB-120 Brasília foi significativo. Ele impulsionou a cadeia produtiva nacional, gerando empregos qualificados e promovendo a transferência de tecnologia. Além disso, estabeleceu um novo patamar de credibilidade para a Embraer, que passou a ser vista como uma concorrente legítima no cenário aeroespacial mundial. O sucesso do Brasília criou as bases para os projetos futuros da empresa, como a família de jatos regionais ERJ-145, que consolidou ainda mais a posição da Embraer no mercado internacional.</p>
        <p>O legado do Brasília vai além de suas qualidades como aeronave. Ele simboliza a capacidade do Brasil de desenvolver, certificar e comercializar um produto tecnológico complexo em escala global. Mesmo após o fim da produção, em 2001, ele continua sendo lembrado como uma das aeronaves mais bem-sucedidas da categoria e um passo decisivo no fortalecimento da aviação regional, tanto no Brasil quanto em diversos outros países.</p>
-         <p><a href="https://1library.org/article/a-ind%C3%BAstria-aeroespacial-a-evolu%C3%A7%C3%A3o-poder-aeroespacial-brasileiro.9ynj6lkz?utm_source=chatgpt.com#google_vignette" target="_blank" class="emb-link">A Indústria Aeroespacial Library</a></p>
-         <p><a href="https://pt.wikipedia.org/wiki/Embraer_EMB_120?utm_source=chatgpt.com" target="_blank" class="emb-link">Embraer EMB 120 Wikipedia</a></p>
+         <p><a href="https://1library.org/article/a-ind%C3%BAstria-aeroespacial-a-evolu%C3%A7%C3%A3o-poder-aeroespacial-brasileiro.9ynj6lkz?utm_source=chatgpt.com#google_vignette" target="_blank" rel="noopener noreferrer" class="emb-link">A Indústria Aeroespacial Library</a></p>
+         <p><a href="https://pt.wikipedia.org/wiki/Embraer_EMB_120?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" class="emb-link">Embraer EMB 120 Wikipedia</a></p>
      `,
   },
   'info-helicoptero': {
