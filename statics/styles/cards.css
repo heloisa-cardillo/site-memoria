@@ -80,7 +80,8 @@ a:hover {
 }
 
 .card {
-  flex: 1;
+  flex: 0 0 25%;
+  /* flex: 1; */
   min-width: 250px;
   max-width: 350px;
   height: auto;
