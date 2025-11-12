@@ -40,7 +40,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
 .secao {
   background-color: var(--bg-light);
   padding: var(--spacing-lg);
@@ -81,7 +80,6 @@ a:hover {
 
 .card {
   flex: 0 0 25%;
-  /* flex: 1; */
   min-width: 250px;
   max-width: 350px;
   height: auto;
@@ -146,8 +144,6 @@ a:hover {
   display: inline-block;
   padding: 10px 20px;
   background-color: var(--primary-color);
-  ;
-  /* verde bonito */
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -159,7 +155,6 @@ a:hover {
 .btn-voltar:hover {
   background-color: var(--primary-color);
 }
-
 
 .saiba-mais:hover {
   opacity: 0.9;
@@ -186,24 +181,23 @@ a:hover {
 .entrevistas-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .entrevistas-container .card {
-  flex: 0 1 calc(33.33% - 20px);
-  min-width: 250px;
-  max-width: 350px;
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
   .entrevistas-container .card {
-    flex: 0 1 calc(50% - 20px);
+    width: calc(50% - 20px);
   }
 }
 
 @media (max-width: 768px) {
   .entrevistas-container .card {
-    flex: 0 1 100%;
+    width: 100%;
   }
 }
