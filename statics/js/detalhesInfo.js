@@ -502,6 +502,7 @@ export const detalhesInfo = {
 
        `,
   },
+
   'info-brasilia': {
     titulo: 'EMB-120 Brasília: Desenvolvimento, Impacto e Legado da Aviação Regional Brasileira',
     conteudo: `
@@ -516,6 +517,7 @@ export const detalhesInfo = {
          <p><a href="https://pt.wikipedia.org/wiki/Embraer_EMB_120?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" class="emb-link">Embraer EMB 120 Wikipedia</a></p>
      `,
   },
+
   'info-helicoptero': {
     titulo: 'Evolução e Contribuições do Laboratório de Asas Rotativas e Drones da FATEC-SJC para a Formação Tecnológica em Aviação',
     conteudo: `
@@ -529,6 +531,7 @@ export const detalhesInfo = {
        <p>A trajetória do Laboratório de Asas Rotativas e Drones da FATEC-SJC revela um ecossistema acadêmico inovador, orientado para o aprendizado baseado em projetos reais e aplicação direta de conhecimentos de engenharia, contribuindo significativamente para a qualificação de mão de obra especializada no setor aeronáutico nacional.</p>
      `,
   },
+
   'masanori': {
     titulo: 'Entrevista com o Professor Fernando Masanori (22/11/2024)',
     conteudo: `
@@ -541,6 +544,7 @@ export const detalhesInfo = {
        <p>O professor vê na FATEC um espaço de transformação real, com inúmeros ex-alunos hoje atuando em empresas como Facebook, Oracle, IBM e startups regionais. Ressalta a importância de manter o sentimento de pertencimento que marcou os primeiros anos da unidade, quando alunos e professores formavam uma comunidade próxima, capaz de realizar eventos de forma autônoma e engajada. Mesmo com o crescimento da instituição, acredita ser essencial preservar esses valores e continuar promovendo impacto na sociedade.</p>
      `,
   },
+
   'benedito': {
     titulo: 'Entrevista com o Benedito Vitorino Jr (22/11/2024) - ALTERAR',
     conteudo: `
@@ -550,7 +554,7 @@ export const detalhesInfo = {
        <p>O processo de matrícula, até o primeiro semestre de 2020, era totalmente presencial. O candidato precisava comparecer à unidade com documentos impressos — cópia acompanhada do original — exatamente como estava no edital, e alguns documentos exigiam foto. Frequentemente, surgiam confusões: alunos chegavam só com o original, ou apenas com a cópia, ou enviavam outra pessoa no lugar. Era comum lidar com situações inesperadas e complicadas no atendimento presencial.</p>
        <p>Em 2020, com a pandemia, tudo mudou. O processo de matrícula passou a ser totalmente digital via SIGA. Os candidatos enviam documentos digitalizados, que são conferidos pela equipe, e depois precisam apresentar os originais presencialmente para validação no SEI, garantindo autenticidade com assinatura digital. Essa mudança marcou um ponto de virada na operação da secretaria e representou a implementação de um projeto de transição que já estava previsto. A digitalização também trouxe a assinatura eletrônica de documentos acadêmicos, implementada totalmente após 2023, transformando o funcionamento interno e exigindo rápida adaptação técnica e operacional da equipe.</p>
        <p>Durante a pandemia, a secretaria precisou migrar do modelo presencial para remoto, mantendo a qualidade do atendimento e garantindo que processos complexos fossem cumpridos corretamente. Tentativas de usar chats instantâneos mostraram-se inviáveis devido à sobrecarga de mensagens, reforçando o uso de e-mail, telefone e atendimento presencial, enquanto os professores se adaptaram ao Microsoft Teams. O impacto direto para os alunos foi significativo, especialmente na emissão de diplomas: colações de grau foram adiadas, como no caso de quem concluiu o curso em dezembro de 2019, que só colou grau em setembro de 2020. Durante o período mais crítico, adotaram rodízios presenciais, mantendo o atendimento e o funcionamento da instituição.</p>
-<p>Nos últimos anos, a Secretaria também passou a lidar com questões de inclusão social, psicológica e de gênero. Receberam solicitações específicas de alunos com deficiência visual, autismo, entre outros, e hoje contam com recursos digitais e aplicativos que adaptam provas e materiais. Em relação à identidade de gênero, o sistema já permite o uso do nome social, mas seguem a legislação vigente, que exige que o nome de registro conste em documentos oficiais, a menos que haja alteração formal. Para apoiar os alunos, realizam orientações no início das aulas, seja por lives ou encontros presenciais, abordando temas como orientação sexual, discriminação racial e inclusão social. Esse acolhimento é parte da rotina desde 2018 e busca criar um ambiente acadêmico respeitoso e inclusivo.</p>
+<p>Nos últimos anos, a Sec retaria também passou a lidar com questões de inclusão social, psicológica e de gênero. Receberam solicitações específicas de alunos com deficiência visual, autismo, entre outros, e hoje contam com recursos digitais e aplicativos que adaptam provas e materiais. Em relação à identidade de gênero, o sistema já permite o uso do nome social, mas seguem a legislação vigente, que exige que o nome de registro conste em documentos oficiais, a menos que haja alteração formal. Para apoiar os alunos, realizam orientações no início das aulas, seja por lives ou encontros presenciais, abordando temas como orientação sexual, discriminação racial e inclusão social. Esse acolhimento é parte da rotina desde 2018 e busca criar um ambiente acadêmico respeitoso e inclusivo.</p>
 <p>Em termos de diversidade racial e de gênero, os dados mostram que cerca de 7% dos alunos se declaram negros, e a soma de pardos e negros varia entre 20% e 30%, refletindo a realidade de São José do Campos, onde aproximadamente 25% da população se enquadra nesse grupo. A presença feminina varia por curso: alguns têm até 50% de alunas, outros menos de 10%, resultando em média geral de 16% a 17%. Essas variações estão diretamente ligadas à composição dos cursos oferecidos e à realidade regional dos alunos. Levam em consideração indicadores e estatísticas para ajustar continuamente métodos de atendimento, planejar políticas inclusivas e observar tendências. Por exemplo, 70% dos alunos são de São José, e os demais vêm de municípios vizinhos. Essas informações ajudam a compreender melhor o perfil do corpo discente e a aprimorar ações da Secretaria.</p>
 <p>Durante esses 14 anos na FATEC, o que motiva Benedito a continuar é o ambiente de trabalho. Desde o início, percebeu que a instituição era diferente: tranquila, com poucos problemas, e a localização próxima de casa ajudava bastante. Antes, trabalhou em lugares onde só uma dessas condições existia — ou boa estrutura, mas ambiente competitivo e desorganizado, ou estabilidade sem oportunidade de aprendizado. Na FATEC, encontrou estabilidade, confiança e um fluxo constante de aprendizado que vai além das funções diárias, permitindo também pensar e desenvolver projetos pessoais.</p>
 <p>Falando em projetos, Benedito tem várias ideias, embora muitas ainda estejam no início, e algumas nem saíram do papel porque ainda precisa retomar a faculdade. Por enquanto, pensa em seguir na área de gestão empresarial ou em cursos ligados à informática voltados para gerenciamento de tecnologia, mais estratégico do que desenvolvimento de software. É do tipo que procura a ferramenta certa para cada situação, aproveitando soluções já existentes no mercado, sem necessidade de reinventar tudo.</p>
@@ -558,6 +562,7 @@ export const detalhesInfo = {
 <p>Acadêmico curioso, Benedito iniciou dois cursos superiores — Engenharia Mecânica em uma faculdade particular e Análise e Desenvolvimento de Sistemas na própria FATEC —, mas não concluiu nenhum devido a interesses e desafios pessoais. No entanto, mantém firme o desejo de retomar os estudos, possivelmente em outra área que desperte maior afinidade. Apaixonado por tecnologia, aproveita o tempo livre para estudar temas de informática e aplicá-los de forma prática, unindo teoria e experiência. Sua trajetória reflete persistência, curiosidade intelectual e compromisso contínuo com aprendizado e desenvolvimento pessoal, mostrando que crescimento e transformação podem vir de diferentes caminhos, sejam acadêmicos, profissionais ou da vida cotidiana.</p>
 `,
   },
+
   'arakaki': {
     titulo: 'Resumo da Entrevista com o Professor Reinaldo Gen Ichiro Arakaki (30/03/2025)',
     conteudo: `
@@ -572,6 +577,7 @@ export const detalhesInfo = {
        <p>Por fim, acredita que o ensino deve ir além do conteúdo técnico. O mercado exige cada vez mais soft skills — como empatia, comunicação e trabalho em equipe — habilidades que se tornaram tão importantes quanto as hard skills. Segundo ele, "você é contratado pelas suas hard skills e demitido pelas suas soft skills", e a FATEC, com suas metodologias inovadoras e projetos interdisciplinares, é um ambiente fértil para o desenvolvimento completo dos alunos.</p>
      `,
   },
+
   'sales': {
     titulo: 'Resumo da Entrevista com o Professor Antonio Wellington Sales Rios',
     conteudo: `
@@ -585,6 +591,7 @@ export const detalhesInfo = {
        <p>Sua trajetória é marcada pelo pioneirismo, dedicação e espírito colaborativo. Além de professor, também é empreendedor — fundador da empresa Micro Assist Informática Ltda. Seu papel foi essencial para a fundação, estruturação e consolidação da FATEC São José dos Campos, sendo lembrado como uma figura central nos primeiros anos da unidade e na formação de sua identidade institucional.</p>
      `,
   },
+
   'jeronimo': {
     titulo: 'Resumo da Entrevista com o Professor Nilo Jeronimo Vieira (Março de 2023)',
     conteudo: `
@@ -599,6 +606,7 @@ export const detalhesInfo = {
        <p>Professor Nilo demonstra entusiasmo com o futuro da FATEC, acreditando em seu papel transformador no ensino público de qualidade, gratuito e voltado ao desenvolvimento pessoal e profissional dos alunos.</p>
      `,
   },
+
   'tozi': {
     titulo: 'Resumo da Entrevista com o Professor Luiz Antonio Tozi (20/09/2024)',
     conteudo: `
@@ -614,6 +622,7 @@ export const detalhesInfo = {
        <p>Tozi vê a FATEC São José como uma escola viva, em constante transformação, e não acomodada. Reafirma que ali não é lugar de aplicar soluções prontas, mas de prototipar, experimentar e inovar com coragem e visão coletiva. Finaliza destacando que seu papel tem sido garantir autonomia para que a escola continue sendo um espaço de desenvolvimento humano, acadêmico e social, sempre conectada com o ecossistema que a cerca.</p>
      `,
   },
+
   'marcus': {
     titulo: 'Resumo da Entrevista com o Professor Marcus Vinicius do Nascimento (03/09/2025)',
     conteudo: `
@@ -628,5 +637,47 @@ export const detalhesInfo = {
       <p>Como coordenador do curso que o formou, Marcus vive uma experiência que descreve como emocionante e transformadora. Ressalta o carinho pelos professores que o inspiraram e afirma sentir-se acolhido e motivado pela equipe atual da Fatec. Ele valoriza o papel da instituição como um bem público e reforça a importância de os alunos compreenderem o propósito de estar ali.</p>
       <p>Para finalizar, deixa uma mensagem aos estudantes: "Nada acontece por acaso. A Fatec tem um papel fundamental como transformadora de vidas. É nosso dever zelar por esse patrimônio público e aproveitar cada oportunidade para crescer e contribuir com a sociedade. Tenho muito orgulho de fazer parte dessa história, como ex-aluno, professor e agora coordenador."</p>
     `,
-  }
+  },
+
+  'edmar': {
+    titulo: 'Resumo da Entrevista com o Professor Edmar de Queiroz Figueiredo COLOCAR DATA',
+    conteudo: `
+    <img src="statics/imgs/pessoas/edmar.png" alt="Edmar de Queiroz" class="info-image">
+    <p>Nascido em Timbaúba, no estado de Pernambuco, e criado em Recife, Edmar de Queiroz Figueiredo construiu uma trajetória marcada pelo comprometimento, pela curiosidade técnica e pelo amor pela engenharia. Formou-se em 1979 e iniciou sua carreira profissional ainda em sua cidade natal, antes de se mudar para São Paulo, incentivado pelo irmão, que já trabalhava no estado. Essa mudança representou o início de uma longa jornada na área industrial e aeroespacial.</p>
+    <p>Em São Paulo, começou sua trajetória na empresa Daruma, em Taubaté, onde deu os primeiros passos na indústria. Mais tarde, ingressou no Instituto de Aeronáutica e Espaço (IAE), vinculado ao Centro Técnico Aeroespacial (CTA), onde passou a atuar diretamente na fabricação de foguetes, como os modelos Sonda III. Essa experiência o inseriu de vez no universo aeroespacial, ampliando sua visão profissional e técnica.</p>
+    <p>Após o período no IAE, foi contratado pela Avibrás, onde permaneceu por cerca de seis anos. A empresa proporcionou uma fase intensa de aprendizado e desafios, com projetos que exigiam precisão e inovação. Com o início da Guerra do Iraque, a produção foi interrompida, e Edmar retornou ao IAE com uma bolsa do CNPq para desenvolver pesquisas sobre recuperação de cargas úteis por paraquedas, realizando um levantamento detalhado de materiais e dados técnicos.</p>
+    <p>Em seguida, trabalhou na Blindex, especializada em vidros de engenharia, e depois na Fania, em Itajubá, na área de fabricação de cabos automotivos. Mais tarde, ingressou na Helibrás, onde participou de projetos voltados à adaptação de helicópteros para a Polícia Federal. Apesar do encerramento do contrato, essa vivência ampliou sua experiência em projetos de alta complexidade.</p>
+    <p>Mesmo com boas oportunidades, o desejo de retornar a São José dos Campos sempre permaneceu. Esse retorno se concretizou em 1989, quando ingressou na Embraer, realizando um grande sonho profissional. Na empresa, trabalhou por quase dez anos, vivenciando um período fundamental de sua formação técnica e humana. Participou de um programa de desenvolvimento de supervisores, atuando em diversas etapas da produção e montagem de aeronaves. A experiência no sistema de Docas, em que cada equipe era responsável pela montagem completa de uma aeronave, marcou profundamente sua carreira.</p>
+    <p>Após quase uma década na Embraer, decidiu buscar novos desafios, trabalhando brevemente na Winston e consolidando uma trajetória diversificada na indústria. A soma dessas experiências o preparou para a fase seguinte: o ingresso na vida acadêmica.</p>
+    <p>A chegada à Fatec representou uma nova etapa. Vindo de uma longa carreira na indústria, Edmar decidiu prestar concurso para a disciplina de Usinagem, no curso de Manutenção de Aeronaves. A experiência acumulada em processos de fabricação e usinagem foi essencial nessa transição. Apesar de o ensino ser um território novo, ele rapidamente encontrou sentido e propósito na docência.</p>
+    <p>Essa mudança coincidiu com o início de seu mestrado no ITA, motivado por colegas que o incentivaram a seguir o caminho acadêmico. Aprovado no concurso, passou a lecionar na Fatec, unindo sua vivência prática da indústria ao ambiente educacional. Desde então, encontrou na instituição um espaço para compartilhar conhecimento e continuar aprendendo diariamente.</p>
+    <p>Nos primeiros anos, lecionou no Parque Tecnológico, em meio a uma estrutura ainda em formação. O ambiente era dinâmico e desafiador, com aulas em espaços improvisados, mas marcados pelo entusiasmo e pela colaboração entre professores e alunos. A transferência para o prédio atual representou um marco, garantindo melhores condições e fortalecendo a identidade institucional da Fatec.</p>
+    <p>Entre suas contribuições mais notáveis está a chegada da seção central do EMB-190 à Fatec. O equipamento, obtido por meio de uma série de contatos e parcerias com ex-colegas da Embraer e da Latecoere, representou um grande avanço para as aulas práticas de manutenção aeronáutica. O transporte e a instalação da estrutura, que pesava cerca de três toneladas, exigiram criatividade e colaboração de diversos profissionais. O resultado foi um marco para o curso, proporcionando aos alunos uma experiência de aprendizado próxima da realidade industrial.</p>
+    <p>Para Edmar, o maior desafio como docente não foi técnico, mas pedagógico. Vindo de um ambiente industrial, precisou aprender a traduzir sua experiência prática em conteúdo didático acessível e significativo. Descobriu que ensinar exige mais do que dominar o conteúdo — é preciso compreender o ritmo do aluno e transformar o conhecimento em aprendizado real. Com o tempo, desenvolveu um estilo próprio de ensino, pautado pela empatia e pela troca constante com os estudantes.</p>
+    <p>Ao longo dos 16 anos de carreira na Fatec, participou de mudanças importantes nos cursos e disciplinas. Iniciou com Usinagem, mas expandiu sua atuação para áreas como Resistência dos Materiais, Materiais e Processos de Fabricação e Metrologia, lecionando em cursos de Manutenção Aeronáutica, Manufatura Avançada e Projeto de Estruturas Aeronáuticas. Essa diversidade fortaleceu sua visão sobre o ensino tecnológico e o papel social da instituição.</p>
+    <p>Entre as motivações que o mantêm em sala de aula, destaca-se o prazer em aprender e ensinar. Acredita que cada turma representa uma nova oportunidade de crescimento e vê na interação com os alunos uma fonte constante de energia e renovação. Muitos de seus ex-alunos hoje ocupam posições de destaque em empresas, cursam doutorado ou empreendem — histórias que ele acompanha com orgulho.</p>
+    <p>Entre os exemplos que mais o marcaram estão o de Jean, ex-aluno que se tornou especialista em aerodinâmica e CEO de uma empresa da área, e o de outros estudantes que trilharam caminhos variados, desde a pesquisa acadêmica até o empreendedorismo. Para Edmar, ver o sucesso de ex-alunos é a maior recompensa do trabalho docente.</p>
+    <p>Ao olhar para sua trajetória, Edmar se considera um privilegiado. Reconhece que foi abençoado por ter convivido com pessoas generosas e inspiradoras, como antigos colegas da Embraer e professores da Fatec, entre eles o professor Tozi, a quem admira pelo caráter e pela postura ética. Enxerga essas relações como pilares fundamentais para o ambiente colaborativo da instituição.</p>
+    <p>Aos 70 anos, mantém o mesmo entusiasmo de quando começou. Continua ativo, motivado e grato por poder exercer uma profissão que o realiza profundamente. Para ele, a Fatec é mais do que um local de trabalho — é um espaço de amizade, crescimento e realização pessoal e profissional. Sua trajetória reflete o compromisso com o conhecimento, a superação e o valor do ensino público como instrumento de transformação.</p>
+  `
+  },
+
+  'suelena': {
+    titulo: 'Resumo da Entrevista com a Professora Maria Suelena Santiago COLOCAR DATA',
+    conteudo: `
+    <img src="statics/imgs/pessoas/suelena.png" alt="Maria Suelena" class="info-image">
+    <p>Nascida em Pedralva, no sul de Minas Gerais, Maria Suelena Santiago construiu uma trajetória marcada pela curiosidade intelectual, pela dedicação ao ensino e pela paixão pelo conhecimento. Aos oito anos, mudou-se para São José dos Campos depois de viver com os avós em Paraibuna. O incentivo do tio foi determinante para que seguisse os estudos e desse início a uma vida acadêmica sólida e inspiradora.</p>
+    <p>Formada em <strong>Engenharia Mecânica pela Escola Federal de Engenharia de Itajubá (EFEI)</strong> em 1969, concluiu também <strong>graduação em Matemática</strong> e, mais tarde, em <strong>Ciências Biológicas pela Universidade do Vale do Paraíba (2000)</strong>. Ingressou no <strong>Instituto Nacional de Pesquisas Espaciais (INPE)</strong> — ainda conhecido como CNAE — logo após a graduação, onde fez <strong>mestrado em Análise de Sistemas e Aplicações (1973)</strong> e <strong>doutorado em Computação Aplicada (1986)</strong>. O período no INPE foi de grande aprendizado e inspiração, especialmente sob a direção de pesquisadores que marcaram sua formação científica e pessoal.</p>
+    <p>Casou-se logo após a formatura, em janeiro de 1971, e construiu uma família unida e estudiosa, com quatro filhos — três meninos e uma menina — que seguiram caminhos ligados ao conhecimento e à dedicação profissional. Dois são engenheiros, uma é arquiteta e outro é médico veterinário. Hoje, com seis netos e filhos vivendo em diferentes países, entre eles França e Alemanha, continua acompanhando com orgulho a trajetória da família. Nos momentos de lazer, dedica-se à leitura e a trabalhos manuais, especialmente à tapeçaria em arraiolos, uma de suas paixões.</p>
+    <p>Sua carreira docente teve início em 1991, quando passou a lecionar <strong>Pesquisa Operacional</strong> no curso de Engenharia da ETEP. Com o tempo, enfrentou diversas disciplinas, conquistou o respeito dos alunos e se destacou pela competência e dedicação. Atuou também na FACAP, nos cursos de Matemática e Física, permanecendo até dezembro de 2015. Durante esse período, conheceu o professor Wellington Rios, no ITA, que a incentivou a ingressar na FATEC São José dos Campos.</p>
+    <p>Após prestar concurso com banca composta pelos professores Anderson e Tozzi, iniciou sua trajetória no <strong>Centro Paula Souza em 3 de outubro de 2006</strong>. Desde então, são <strong>19 anos de dedicação à instituição</strong>, especialmente ao curso de Logística, no qual atua como professora sênior.</p>
+    <p>Ao relembrar o início do curso de Logística, ainda no prédio do Parque Tecnológico, destaca o ambiente acolhedor e a sensação de modernidade das instalações, com salas acarpetadas e portas automáticas. Mesmo com poucos alunos, a atmosfera era de entusiasmo e pioneirismo. Vinda de São José, percorrendo diariamente a Rodovia Dutra, Suelena sempre manteve o mesmo compromisso com o ensino, independentemente das distâncias e desafios do caminho.</p>
+    <p>Ao longo dos anos, observou mudanças significativas no perfil dos alunos. Percebe que, de modo geral, o nível de preparo diminuiu, especialmente nas áreas de base como matemática e física. Recorda com apreço o cursinho de nivelamento que existia na FATEC, uma iniciativa que auxiliava os alunos a se adaptarem melhor à vida acadêmica e a superarem defasagens. Acredita que ações como essa são fundamentais para fortalecer o aprendizado e oferecer condições mais equilibradas de formação.</p>
+    <p>Durante a pandemia, viveu um dos períodos mais intensos da carreira, chegando a ministrar <strong>22 aulas semanais</strong> de forma remota. Foi sua primeira experiência com o ensino a distância, que exigiu adaptação rápida e resiliência. Quando as atividades presenciais retornaram, retomou com entusiasmo a rotina diária na FATEC, reencontrando alunos e colegas.</p>
+    <p>Em 2003, precisou se afastar temporariamente do trabalho por motivos de saúde, devido a problemas na coluna. Após um período difícil de recuperação, contou com o apoio dos colegas e retornou gradualmente às aulas, inicialmente com duas disciplinas. A volta à sala de aula marcou uma fase de superação e renovação, reafirmando sua vocação e amor pelo ensino.</p>
+    <p>Entre suas melhores lembranças, estão as amizades construídas com professores e alunos, a troca de experiências e o aprendizado constante. A convivência na FATEC proporcionou não apenas crescimento profissional, mas também pessoal, em um ambiente colaborativo e acolhedor.</p>
+    <p>Aos novos docentes que chegam à instituição, Maria Suelena transmite uma mensagem de esperança e compromisso. Mantém a crença de que é possível elevar continuamente o nível do ensino e preservar a qualidade que sempre caracterizou a FATEC. Sua trajetória reflete a combinação entre dedicação, resiliência e amor pelo conhecimento — valores que seguem inspirando gerações de alunos e professores.</p>
+  `
+  },
+
 }

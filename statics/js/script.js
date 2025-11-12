@@ -92,7 +92,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const saibaMaisLinks = document.querySelectorAll('.saiba-mais')
 
-  // Faz redirecionamento para páginas específicas ou usa heurística para descobrir o ID baseado no título do card
   saibaMaisLinks.forEach(link => {
     link.addEventListener('click', function (e) {
       if (!this.getAttribute('target')) {
@@ -110,7 +109,6 @@ document.addEventListener('DOMContentLoaded', function () {
           return;
         }
 
-        // Se não tem ID, tenta descobrir a partir do título do card pai
         if (!infoId) {
           const cardElement = this.closest('.card')
           const cardTitle = cardElement.querySelector('.card-title').textContent.trim()
@@ -124,7 +122,6 @@ document.addEventListener('DOMContentLoaded', function () {
           }
         }
 
-        // Se tem ID e detalhes disponíveis, mostra as informações; senão, mostra alerta
         if (infoId && detalhesInfo[infoId]) {
           window.mostrarInformacoes(infoId, detalhesInfo);
         } else {
