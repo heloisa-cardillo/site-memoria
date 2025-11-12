@@ -40,6 +40,7 @@ a:hover {
   text-decoration: underline;
 }
 
+
 .secao {
   background-color: var(--bg-light);
   padding: var(--spacing-lg);
@@ -156,6 +157,7 @@ a:hover {
   background-color: var(--primary-color);
 }
 
+
 .saiba-mais:hover {
   opacity: 0.9;
 }
@@ -179,25 +181,24 @@ a:hover {
 }
 
 .entrevistas-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .entrevistas-container .card {
-  width: calc(33.33% - 20px);
-  margin-bottom: 20px;
+  width: 100%;
   box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
-  .entrevistas-container .card {
-    width: calc(50% - 20px);
+  .entrevistas-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 768px) {
-  .entrevistas-container .card {
-    width: 100%;
+  .entrevistas-container {
+    grid-template-columns: 1fr;
   }
 }
