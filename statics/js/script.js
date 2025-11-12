@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
                   ${detalhesInfo[infoId].conteudo}
                 </div>
                 <div class="botoes-navegacao">
+                  <button id="abrir-info" class="botao-voltar">Abrir Entrevista</button>
                   <button id="voltar-info" class="botao-voltar">Voltar</button>
                   <button id="fechar-info" class="botao-fechar">Fechar</button>
                 </div>
@@ -37,6 +38,55 @@ document.addEventListener('DOMContentLoaded', function () {
 
       secaoInformacoes.style.display = 'block'
       secaoInformacoes.scrollIntoView({ behavior: 'smooth' });
+
+      const botaoAbrir = document.getElementById('abrir-info');
+      if (botaoAbrir) {
+        botaoAbrir.addEventListener('click', function () {
+          const pdfUrl = detalhesInfo[infoId].pdf;
+
+          if (!pdfUrl) {
+            alert('Este conteúdo ainda não possui um PDF disponível.');
+            return;
+          }
+
+          let modal = document.getElementById('pdf-modal');
+          if (!modal) {
+            modal = document.createElement('div');
+            modal.id = 'pdf-modal';
+            modal.innerHTML = `
+        <div id="pdf-container">
+          <button id="fechar-pdf">✖ Fechar</button>
+          <div id="pdf-html-container" style="width:100%; height:100%; overflow:auto;"></div>
+        </div>
+      `;
+            document.body.appendChild(modal);
+
+            document.getElementById('fechar-pdf').addEventListener('click', () => {
+              modal.style.display = 'none';
+              document.getElementById('pdf-viewer').src = '';
+            });
+          }
+
+          const htmlContainer = document.getElementById('pdf-html-container');
+
+          fetch(pdfUrl)
+            .then(res => res.text())
+            .then(html => {
+              htmlContainer.innerHTML = html;
+              const pageContainer = htmlContainer.querySelector('#page-container');
+              if (pageContainer) {
+                pageContainer.style.background = '#c8c8c8ff';
+                pageContainer.style.backgroundImage = 'none';
+              }
+              modal.style.display = 'flex';
+            })
+            .catch(err => {
+              alert('Não foi possível carregar o conteúdo.');
+              console.error(err);
+            });
+
+        });
+      }
 
       // Para cada link com 'saiba-mais' dentro da seção, adiciona evento de clique para mostrar mais detalhes
       const novosLinks = secaoInformacoes.querySelectorAll('.saiba-mais');

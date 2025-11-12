@@ -534,6 +534,7 @@ export const detalhesInfo = {
 
   'masanori': {
     titulo: 'Entrevista com o Professor Fernando Masanori (22/11/2024)',
+    pdf: "/statics/imgs/pessoas/masanori/pdf/Prof.-Masanori.html",
     conteudo: `
        <img src="../statics/imgs/pessoas/masanori/masanoriCapa.jpeg" alt="Masanori" class="info-image">
        <p>Fernando Masanori nasceu em 1º de setembro de 1964, em São Paulo. De origem japonesa, teve uma infância marcada por dificuldades financeiras, especialmente após a separação dos pais e a falência do negócio do pai. Desde cedo, trabalhou para ajudar a sustentar a família e, com a ajuda de uma prima, conseguiu cursar o pré-vestibular e ingressar na USP, onde se formou em Ciências da Computação em 1988. O contato com o Opus Dei durante a graduação teve grande influência em sua formação ética e pessoal.</p>
@@ -565,6 +566,7 @@ export const detalhesInfo = {
 
   'arakaki': {
     titulo: 'Resumo da Entrevista com o Professor Reinaldo Gen Ichiro Arakaki (30/03/2025)',
+    pdf: "/statics/imgs/pessoas/arakaki/pdf/Prof.-Arakaki.html",
     conteudo: `
        <img src="../statics/imgs/pessoas/arakaki/arakaki.jpg" alt="Arakaki" class="info-image">
        <p>Reinaldo Arakaki nasceu em 10 de setembro, na cidade de São Paulo, no bairro do Bom Retiro. Formado em Física pela USP, mudou-se para São José dos Campos em 1989 para cursar mestrado em Sensoriamento Remoto e, posteriormente, doutorado em Computação pelo INPE, concluído em 2000. Sua trajetória como educador começou ainda antes do mestrado, lecionando matemática em escolas como o Colégio Bilac, e depois atuando na UNIVAP.</p>
@@ -625,6 +627,7 @@ export const detalhesInfo = {
 
   'marcus': {
     titulo: 'Resumo da Entrevista com o Professor Marcus Vinicius do Nascimento (03/09/2025)',
+    pdf: "/statics/imgs/pessoas/marcus/pdf/marcus-vinicius.html",
     conteudo: `
       <img src="../statics/imgs/pessoas/marcus/marcus3.jpg" alt="Marcus Vinicius" class="info-image">
       <p>Nascido em São José dos Campos, São Paulo, Marcus Vinicius é ex-aluno da própria FATEC – São José dos Campos, onde se formou em Logística. Possui mestrado pelo Instituto Tecnológico de Aeronáutica (ITA) e atualmente é professor e coordenador do curso de Logística na mesma instituição em que iniciou sua trajetória acadêmica.</p>
