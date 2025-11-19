@@ -18,6 +18,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
       // Atualiza o ID atual
       idAtual = infoId;
+      // Dentro do seu mostrarInformacoes:
+      const temPDF = detalhesInfo[infoId].pdf !== undefined && detalhesInfo[infoId].pdf !== null
+
 
       // Insere o conteúdo detalhado na seção HTML dinamicamente
       secaoInformacoes.innerHTML = `
@@ -28,7 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
                   ${detalhesInfo[infoId].conteudo}
                 </div>
                 <div class="botoes-navegacao">
-                  <button id="abrir-info" class="botao-voltar">Abrir Entrevista</button>
+                ${temPDF ? 
+                  `<button id="abrir-info" class="botao-voltar">Abrir Entrevista</button>` : ``}
                   <button id="voltar-info" class="botao-voltar">Voltar</button>
                   <button id="fechar-info" class="botao-fechar">Fechar</button>
                 </div>

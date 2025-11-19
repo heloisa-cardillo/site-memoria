@@ -548,6 +548,7 @@ export const detalhesInfo = {
 
   'benedito': {
     titulo: 'Entrevista com o Benedito Vitorino Jr (22/11/2024) - ALTERAR',
+    pdf: "/statics/imgs/pessoas/benedito/pdf/benedito.html",
     conteudo: `
        <img src="../statics/imgs/pessoas/benedito/bene(2).jpeg" alt="Benedito" class="info-image">
        <p>Quando Benedito Vitorino Jr. entrou na FATEC, em março de 2011, já estava em andamento o processo de mudança para o novo prédio. A mudança foi concluída em maio daquele ano, mas durante o período de transição ainda não havia telefone nem internet instalados, o que tornou os primeiros meses bastante desafiadores. Ele e a equipe participaram ativamente dessa transição, organizando documentos, implantando sistemas e garantindo que o atendimento aos alunos não fosse interrompido. Era como trocar o pneu com o carro em movimento: as aulas já aconteciam, mas a estrutura ainda não estava pronta, e muitas tarefas só se tornavam urgentes quando já estavam atrasadas.</p>
@@ -582,6 +583,7 @@ export const detalhesInfo = {
 
   'sales': {
     titulo: 'Resumo da Entrevista com o Professor Antonio Wellington Sales Rios',
+    pdf: "/statics/imgs/pessoas/sales/pdf/Prof.-Sales.html",
     conteudo: `
        <img src="../statics/imgs/pessoas/sales/salesAula.jpg" alt="Sales" class="info-image">
        <p>Antonio Wellington Sales Rios nasceu em Fortaleza (CE), em 20 de junho de 1954. Mudou-se para São Paulo em 1971, aos 17 anos, para cursar a Escola de Especialistas da Aeronáutica (EEAer) em Guaratinguetá. Formado como 3º Sargento, ingressou posteriormente na Academia da Força Aérea (AFA) e, mais tarde, no Instituto Tecnológico de Aeronáutica (ITA), onde concluiu a graduação em Engenharia de Infraestrutura Aeronáutica (1981) e o mestrado (1991). Ao longo de sua carreira na Força Aérea, trabalhou na Diretoria de Engenharia da Aeronáutica e no Instituto de Proteção ao Voo (IPV), onde contribuiu com o desenvolvimento do SIPAR — um simulador de radar de aproximação que foi utilizado em diversos países da América Latina.</p>
@@ -596,6 +598,7 @@ export const detalhesInfo = {
 
   'jeronimo': {
     titulo: 'Resumo da Entrevista com o Professor Nilo Jeronimo Vieira (Março de 2023)',
+    pdf: "/statics/imgs/pessoas/jeronimo/pdf/Prof.-Jeronimo.html",
     conteudo: `
        <img src="../statics/imgs/pessoas/jeronimo/jeronimo3.jpeg" alt="Jeronimo" class="info-image">
        <p>Professor Nilo Jeronimo Vieira, mineiro de Contagem (MG), mudou-se ainda criança para Itaquaquecetuba (SP), onde viveu até os 26 anos. De origem humilde, encontrou na leitura e nas músicas o gosto pela língua inglesa, tornando-se apaixonado pela educação desde cedo. Casado e pai de três filhos e três netas, mudou-se para São José dos Campos em 1993, após se casar com sua atual esposa. Formado em Letras (Português/Inglês) pela Universidade Cidade de São Paulo em 1991, iniciou sua trajetória como professor quase por acaso, após ser indicado por sua madrinha para cobrir uma vaga emergencial em uma escola estadual.</p>
@@ -611,6 +614,7 @@ export const detalhesInfo = {
 
   'tozi': {
     titulo: 'Resumo da Entrevista com o Professor Luiz Antonio Tozi (20/09/2024)',
+    pdf: "/statics/imgs/pessoas/tozi/pdf/Prof.-Tozi.html",
     conteudo: `
        <img src="../statics/imgs/pessoas/tozi/tozi.png" alt="Tozi" class="info-image">
        <p>Luiz Antonio Tozi é engenheiro naval pela USP, mestre e doutor pelo ITA, com larga experiência acadêmica, empresarial e em gestão pública. Já atuou como Secretário Executivo do Ministério da Educação (vice-ministro), Vice-Superintendente do Centro Paula Souza, conselheiro em empresas, professor da FGV e, desde 2011, é diretor da FATEC São José dos Campos.</p>
@@ -644,6 +648,7 @@ export const detalhesInfo = {
 
   'edmar': {
     titulo: 'Resumo da Entrevista com o Professor Edmar de Queiroz Figueiredo COLOCAR DATA',
+    pdf: "/statics/imgs/pessoas/edmar/pdf/Prof.-Edmar.html",
     conteudo: `
     <img src="../statics/imgs/pessoas/edmar.png" alt="Edmar de Queiroz" class="info-image">
     <p>Nascido em Timbaúba, no estado de Pernambuco, e criado em Recife, Edmar de Queiroz Figueiredo construiu uma trajetória marcada pelo comprometimento, pela curiosidade técnica e pelo amor pela engenharia. Formou-se em 1979 e iniciou sua carreira profissional ainda em sua cidade natal, antes de se mudar para São Paulo, incentivado pelo irmão, que já trabalhava no estado. Essa mudança representou o início de uma longa jornada na área industrial e aeroespacial.</p>
@@ -667,6 +672,7 @@ export const detalhesInfo = {
 
   'suelena': {
     titulo: 'Resumo da Entrevista com a Professora Maria Suelena Santiago COLOCAR DATA',
+    pdf: "/statics/imgs/pessoas/suelena/pdf/Prof.-Suelena.html",
     conteudo: `
     <img src="../statics/imgs/pessoas/suelena.png" alt="Maria Suelena" class="info-image">
     <p>Nascida em Pedralva, no sul de Minas Gerais, Maria Suelena Santiago construiu uma trajetória marcada pela curiosidade intelectual, pela dedicação ao ensino e pela paixão pelo conhecimento. Aos oito anos, mudou-se para São José dos Campos depois de viver com os avós em Paraibuna. O incentivo do tio foi determinante para que seguisse os estudos e desse início a uma vida acadêmica sólida e inspiradora.</p>
