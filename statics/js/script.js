@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const botaoAbrir = document.getElementById('abrir-info');
       if (botaoAbrir) {
         botaoAbrir.addEventListener('click', function () {
-          const pdfUrl = `${window.location.origin}${detalhesInfo[infoId].pdf}`;
+          const pdfUrl = `${window.location.origin}/site-memoria/${detalhesInfo[infoId].pdf}`;
 
           if (!pdfUrl) {
             alert('Este conteúdo ainda não possui um PDF disponível.');
