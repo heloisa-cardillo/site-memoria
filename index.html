@@ -12,55 +12,75 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <style>
-  .carousel-indicators .active {
-    background-color: var(--primary-color);
-  }
-  .carousel-control {
-    width: 10%;
-  }
-  .card-carousel, .item.active>.card-carousel {
-    max-width: 100%;
-    text-align: center;
-    margin: 0 10%;
-    height: 600px;
-  }
-  .imagem-carrosel {
-    max-height: 400px;
-    height: 60%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    .carousel-indicators .active {
+      background-color: var(--primary-color);
+    }
 
-    ol, ul {
+    .carousel-control {
+      width: 10%;
+    }
+
+    .card-carousel,
+    .item.active>.card-carousel {
+      max-width: 100%;
+      text-align: center;
+      margin: 0 10%;
+      height: 600px;
+    }
+
+    .imagem-carrosel {
+      max-height: 400px;
+      height: 60%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    ol,
+    ul {
       margin-top: 0;
       margin-bottom: -30px;
-  }
-  /* Se a largura da tela for até 470px, muda o height para 40% */
-  @media (max-width: 470px) {
-    .imagem-carrosel {
-      height: 30%;
     }
-  }
-  .imagem-carrosel > img {
-    height: 100%;           
-    width: auto;            
-    max-width: 90%;
-    object-fit: contain;    /* Garante que a imagem não seja cortada */
-  }
-    .card-content > .card-text {
-    padding-inline: 5%;
-  }
 
-  a:focus, a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-  }
-  .carousel-indicators {
-    bottom: 70px;
-  }
-</style>
+    /* Se a largura da tela for até 470px, muda o height para 40% */
+    @media (max-width: 470px) {
+      .imagem-carrosel {
+        height: 30%;
+      }
+    }
+
+    .imagem-carrosel>img {
+      height: 100%;
+      width: auto;
+      max-width: 90%;
+      object-fit: contain;
+      /* Garante que a imagem não seja cortada */
+    }
+
+    .card-content>.card-text {
+      padding-inline: 5%;
+    }
+
+    a:focus,
+    a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    .carousel-indicators {
+      bottom: 70px;
+    }
+
+    /* Aumentar tamanho das letras no carrossel */
+    .card-carousel .card-title {
+      font-size: 28px;
+    }
+
+    .card-carousel .card-text {
+      font-size: 18px;
+    }
+  </style>
 
 </head>
 
@@ -70,7 +90,7 @@
   </header>
 
   <main>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel"  data-interval="4000">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active" style="border: solid 1px var(--primary-color);">
@@ -92,9 +112,10 @@
             <div class="card-content">
               <h3 class="card-title">Entrevistas</h3>
               <p class="card-text">A trajetória dos educadores e docentes da FATEC revela histórias inspiradoras de
-            transformação. Cada relato nos convida a refletir sobre o impacto profundo e duradouro que um 
-            professor pode exercer na jornada de um estudante — especialmente quando existe uma rede de apoio sólida, 
-            da qual os educadores da FATEC são parte essencial e ativa.</p>
+                transformação. Cada relato nos convida a refletir sobre o impacto profundo e duradouro que um
+                professor pode exercer na jornada de um estudante — especialmente quando existe uma rede de apoio
+                sólida,
+                da qual os educadores da FATEC são parte essencial e ativa.</p>
               <a href="#" class="saiba-mais" data-id="entrevistas">Saiba +</a>
             </div>
           </article>
@@ -106,16 +127,16 @@
               <img src="statics/imgs/icones/logoFatec.png" alt="Fatecs" class="card-image" loading="lazy">
             </div>
             <div class="card-content">
-              <h3 class="card-title">FATECS</h3>
+              <h3 class="card-title">Memórias Fatec</h3>
               <p class="card-text">As Fatecs (Faculdades de Tecnologia do Estado de São Paulo) são instituições
-                públicas de ensino superior que oferecem cursos superiores de tecnologia, com foco na formação 
+                públicas de ensino superior que oferecem cursos superiores de tecnologia, com foco na formação
                 de profissionais alinhados às demandas do mercado de trabalho.</p>
 
               <a href="#" class="saiba-mais" data-id="fatecs">Saiba +</a>
             </div>
           </article>
         </div>
-        
+
         <div class="item">
           <article class="card card-carousel">
             <div class="card-image-container imagem-carrosel">
@@ -142,10 +163,12 @@
             </div>
             <div class="card-content">
               <h3 class="card-title">Eventos e Programas da Fatec</h3>
-              <p class="card-text">A Fatec oferece projetos e competições que unem teoria e prática, como a metodologia API
-            (Exclusiva da Fatec de São José dos Campos), as maratonas de programação e o Baja.
-            Também conta com um laboratório móvel, uma agência de inovação e atividades na área aeronáutica. Essas ações
-            fortalecem a formação prática e inovadora dos estudantes.</p>
+              <p class="card-text">A Fatec oferece projetos e competições que unem teoria e prática, como a metodologia
+                API
+                (Exclusiva da Fatec de São José dos Campos), as maratonas de programação e o Baja.
+                Também conta com um laboratório móvel, uma agência de inovação e atividades na área aeronáutica. Essas
+                ações
+                fortalecem a formação prática e inovadora dos estudantes.</p>
               <a href="#" class="saiba-mais" data-id="eventos-programas">Saiba +</a>
             </div>
           </article>
@@ -154,28 +177,30 @@
         <div class="item">
           <article class="card card-carousel">
             <div class="card-image-container imagem-carrosel">
-              <img src="statics/imgs/icones/pessoasInspiram.png" alt="Nomes que Inspiram" class="card-image" loading="lazy">
+              <img src="statics/imgs/icones/pessoasInspiram.png" alt="Nomes que Inspiram" class="card-image"
+                loading="lazy">
             </div>
             <div class="card-content">
               <h3 class="card-title">Nomes que Inspiram</h3>
-              <p class="card-text">Personalidades que marcaram a história da ciência, tecnologia e educação no Brasil, como
-            César Lattes, Jessen Vidal, Paula Souza e Ozires Silva. Seus legados inspiram gerações
-            na busca por conhecimento e desenvolvimento.</p>
+              <p class="card-text">Personalidades que marcaram a história da ciência, tecnologia e educação no Brasil,
+                como
+                César Lattes, Jessen Vidal, Paula Souza e Ozires Silva. Seus legados inspiram gerações
+                na busca por conhecimento e desenvolvimento.</p>
               <a href="#" class="saiba-mais" data-id="nomes-inspiram">Saiba +</a>
             </div>
           </article>
 
         </div>
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="opacity: 0.2;">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="opacity: 0.2;">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="opacity: 0.2;">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="opacity: 0.2;">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
 
     <section class="card-container">
