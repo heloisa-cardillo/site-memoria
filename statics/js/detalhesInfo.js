@@ -645,9 +645,8 @@ export const detalhesInfo = {
       <p>Para finalizar, deixa uma mensagem aos estudantes: "Nada acontece por acaso. A Fatec tem um papel fundamental como transformadora de vidas. É nosso dever zelar por esse patrimônio público e aproveitar cada oportunidade para crescer e contribuir com a sociedade. Tenho muito orgulho de fazer parte dessa história, como ex-aluno, professor e agora coordenador."</p>
     `,
   },
-
-  'edmar': {
-    titulo: 'Resumo da Entrevista com o Professor Edmar de Queiroz Figueiredo COLOCAR DATA',
+'edmar': {
+    titulo: 'Resumo da Entrevista com o Professor Edmar de Queiroz Figueiredo (01/10/2025)',
     pdf: "/statics/imgs/pessoas/edmar/pdf/Prof.-Edmar.html",
     conteudo: `
     <img src="../statics/imgs/pessoas/edmar/edmar.png" alt="Edmar de Queiroz" class="info-image">
@@ -671,8 +670,8 @@ export const detalhesInfo = {
   },
 
  'suelena': {
-    titulo: 'Resumo da Entrevista com a Professora Maria Suelena Santiago COLOCAR DATA',
-    pdf: "/statics/imgs/pessoas/suelena/pdf/Prof.-Suelena.html",
+    titulo: 'Resumo da Entrevista com a Professora Maria Suelena Santiago (30/10/2025)',
+    pdf: "/statics/imgs/pessoas/suelena/pdf/seuelenaEntrevista.html",
     conteudo: `
     <img src="statics/imgs/pessoas/suelena/suelena.png" alt="Maria Suelena" class="info-image">
     <p>Nascida em Pedralva, no sul de Minas Gerais, Maria Suelena Santiago construiu uma trajetória marcada pela curiosidade intelectual, pela dedicação ao ensino e pela paixão pelo conhecimento. Aos oito anos, mudou-se para São José dos Campos depois de viver com os avós em Paraibuna. O incentivo do tio foi determinante para que seguisse os estudos e desse início a uma vida acadêmica sólida e inspiradora.</p>
