@@ -672,9 +672,9 @@ export const detalhesInfo = {
 
  'suelena': {
     titulo: 'Resumo da Entrevista com a Professora Maria Suelena Santiago COLOCAR DATA',
-    pdf: "statics/imgs/pessoas/suelena/Professora Suelena Santiago.pdf",
+    pdf: "/statics/imgs/pessoas/suelena/pdf/Prof.-Suelena.html",
     conteudo: `
-    <img src="../statics/imgs/pessoas/suelena/suelena.png" alt="Maria Suelena" class="info-image">
+    <img src="statics/imgs/pessoas/suelena/seuelenaEntrevista.pdf" alt="Maria Suelena" class="info-image">
     <p>Nascida em Pedralva, no sul de Minas Gerais, Maria Suelena Santiago construiu uma trajetória marcada pela curiosidade intelectual, pela dedicação ao ensino e pela paixão pelo conhecimento. Aos oito anos, mudou-se para São José dos Campos depois de viver com os avós em Paraibuna. O incentivo do tio foi determinante para que seguisse os estudos e desse início a uma vida acadêmica sólida e inspiradora.</p>
     <p>Formada em <strong>Engenharia Mecânica pela Escola Federal de Engenharia de Itajubá (EFEI)</strong> em 1969, concluiu também <strong>graduação em Matemática</strong> e, mais tarde, em <strong>Ciências Biológicas pela Universidade do Vale do Paraíba (2000)</strong>. Ingressou no <strong>Instituto Nacional de Pesquisas Espaciais (INPE)</strong> — ainda conhecido como CNAE — logo após a graduação, onde fez <strong>mestrado em Análise de Sistemas e Aplicações (1973)</strong> e <strong>doutorado em Computação Aplicada (1986)</strong>. O período no INPE foi de grande aprendizado e inspiração, especialmente sob a direção de pesquisadores que marcaram sua formação científica e pessoal.</p>
     <p>Casou-se logo após a formatura, em janeiro de 1971, e construiu uma família unida e estudiosa, com quatro filhos — três meninos e uma menina — que seguiram caminhos ligados ao conhecimento e à dedicação profissional. Dois são engenheiros, uma é arquiteta e outro é médico veterinário. Hoje, com seis netos e filhos vivendo em diferentes países, entre eles França e Alemanha, continua acompanhando com orgulho a trajetória da família. Nos momentos de lazer, dedica-se à leitura e a trabalhos manuais, especialmente à tapeçaria em arraiolos, uma de suas paixões.</p>
