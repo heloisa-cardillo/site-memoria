@@ -670,9 +670,9 @@ export const detalhesInfo = {
   `
   },
 
- /* 'suelena': {
+ 'suelena': {
     titulo: 'Resumo da Entrevista com a Professora Maria Suelena Santiago COLOCAR DATA',
-    pdf: "/statics/imgs/pessoas/suelena/pdf/Prof.-Suelena.html",
+    pdf: "statics/imgs/pessoas/suelena/Professora Suelena Santiago.pdf",
     conteudo: `
     <img src="../statics/imgs/pessoas/suelena/suelena.png" alt="Maria Suelena" class="info-image">
     <p>Nascida em Pedralva, no sul de Minas Gerais, Maria Suelena Santiago construiu uma trajetória marcada pela curiosidade intelectual, pela dedicação ao ensino e pela paixão pelo conhecimento. Aos oito anos, mudou-se para São José dos Campos depois de viver com os avós em Paraibuna. O incentivo do tio foi determinante para que seguisse os estudos e desse início a uma vida acadêmica sólida e inspiradora.</p>
@@ -687,6 +687,6 @@ export const detalhesInfo = {
     <p>Entre suas melhores lembranças, estão as amizades construídas com professores e alunos, a troca de experiências e o aprendizado constante. A convivência na FATEC proporcionou não apenas crescimento profissional, mas também pessoal, em um ambiente colaborativo e acolhedor.</p>
     <p>Aos novos docentes que chegam à instituição, Maria Suelena transmite uma mensagem de esperança e compromisso. Mantém a crença de que é possível elevar continuamente o nível do ensino e preservar a qualidade que sempre caracterizou a FATEC. Sua trajetória reflete a combinação entre dedicação, resiliência e amor pelo conhecimento — valores que seguem inspirando gerações de alunos e professores.</p>
   `
-  },*/
+  },
 
 }
