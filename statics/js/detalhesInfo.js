@@ -645,7 +645,7 @@ export const detalhesInfo = {
       <p>Para finalizar, deixa uma mensagem aos estudantes: "Nada acontece por acaso. A Fatec tem um papel fundamental como transformadora de vidas. É nosso dever zelar por esse patrimônio público e aproveitar cada oportunidade para crescer e contribuir com a sociedade. Tenho muito orgulho de fazer parte dessa história, como ex-aluno, professor e agora coordenador."</p>
     `,
   },
-'edmar': {
+  'edmar': {
     titulo: 'Resumo da Entrevista com o Professor Edmar de Queiroz Figueiredo (01/10/2025)',
     pdf: "/statics/imgs/pessoas/edmar/pdf/Prof.-Edmar.html",
     conteudo: `
@@ -669,7 +669,7 @@ export const detalhesInfo = {
   `
   },
 
- 'suelena': {
+  'suelena': {
     titulo: 'Resumo da Entrevista com a Professora Maria Suelena Santiago (30/10/2025)',
     pdf: "/statics/imgs/pessoas/suelena/pdf/seuelenaEntrevista.html",
     conteudo: `
@@ -685,6 +685,24 @@ export const detalhesInfo = {
     <p>Em 2003, precisou se afastar temporariamente do trabalho por motivos de saúde, devido a problemas na coluna. Após um período difícil de recuperação, contou com o apoio dos colegas e retornou gradualmente às aulas, inicialmente com duas disciplinas. A volta à sala de aula marcou uma fase de superação e renovação, reafirmando sua vocação e amor pelo ensino.</p>
     <p>Entre suas melhores lembranças, estão as amizades construídas com professores e alunos, a troca de experiências e o aprendizado constante. A convivência na FATEC proporcionou não apenas crescimento profissional, mas também pessoal, em um ambiente colaborativo e acolhedor.</p>
     <p>Aos novos docentes que chegam à instituição, Maria Suelena transmite uma mensagem de esperança e compromisso. Mantém a crença de que é possível elevar continuamente o nível do ensino e preservar a qualidade que sempre caracterizou a FATEC. Sua trajetória reflete a combinação entre dedicação, resiliência e amor pelo conhecimento — valores que seguem inspirando gerações de alunos e professores.</p>
+  `
+  },
+
+  'memoria-participativa': {
+    titulo: 'Memória Participativa',
+    conteudo: `
+    <p>A memória participativa é um conceito que valoriza a participação ativa de grupos, comunidades e coletivos culturais na preservação e promoção da memória social. Este site visa garantir que o direito à memória seja exercido democraticamente por diversos grupos de professores, alunos e funcionários.</p>
+    <p>Além disso, os inventários participativos trabalham na identificação e registro do patrimônio cultural e da memória social. A memória participativa é uma forma de aproximar pessoas, reaproximar comunidades e fortalecer o sentimento de pertencimento e identidade.</p>
+    
+    <h3>Catálogo dos Laboratórios de Aeronáutica</h3>
+    <p>Os Catálogos dos Laboratórios de Aeronáutica foram organizados por alunos do Curso de Tecnologia em Manutenção de Aeronaves, baseado no conceito de Inventário Participativo, onde foram selecionados as partes mais significativas para o aprendizado no ponto de vista dos alunos.</p>
+    <p>A apresentação do Trabalho de Graduação dos alunos Anderson de Araújo Barroso e Kátia Aiko Nakamura do Curso de Tecnologia em manutenção de Aeronaves explica como estes catálogos estão sendo desenvolvidos.</p>
+    
+    <h4>Acesse os catálogos:</h4>
+    <p><a href="statics/html/catalogo de asas rotativas.html" target="_blank" rel="noopener noreferrer">Catálogo de Asas Rotativas</a></p>
+    <p><a href="statics/html/catalogo de manutenção atualizado.html" target="_blank" rel="noopener noreferrer">Catálogo de Manutenção de Aeronaves</a></p>
+    <p><a href="statics/html/catalago de metrologia.html" target="_blank" rel="noopener noreferrer">Catálogo de Metrologia</a></p>
+    <p><a href="statics/html/catalogo de propulsores.html" target="_blank" rel="noopener noreferrer">Catálogo de Propulsores</a></p>
   `
   },
 
