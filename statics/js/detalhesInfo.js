@@ -708,8 +708,8 @@ export const detalhesInfo = {
 
 
   'fatec-20-anos': {
-  titulo: 'FATEC 20 anos - São José dos Campos',
-  conteudo: `
+    titulo: 'FATEC 20 anos - São José dos Campos',
+    conteudo: `
   <div class="card-container">
     <article class="card">
       <div class="card-image-container">
@@ -737,11 +737,11 @@ export const detalhesInfo = {
     </article>
   </div>
   `
-},
+  },
 
-'video-fatec-20-anos': {
-  titulo: 'Video FATEC 20 anos',
-  conteudo: `
+  'video-fatec-20-anos': {
+    titulo: 'Video FATEC 20 anos',
+    conteudo: `
     <div class="video-container">
       <video controls width="100%">
         <source src="statics/video/FATEC 20 ANOS versão final.mp4" type="video/mp4">
@@ -752,12 +752,14 @@ export const detalhesInfo = {
     <p>"O mais gratificante é reencontrar esses alunos mais tarde, já formados, seguindo suas carreiras." — Reinaldo Arakaki. Para ele, embora a instituição permaneça, os alunos estão sempre se renovando, trazendo novas expectativas, sonhos e necessidades, o que mantém viva a motivação de ensinar. O verdadeiro impacto da educação aparece no reencontro com ex-alunos formados e bem-sucedidos, confirmando que a formação recebida contribuiu para suas trajetórias. Assim, a missão da FATEC vai além da capacitação profissional, alcançando também o desenvolvimento humano e social.</p>
     <p>Complementando essa visão, destaca-se que o senso de comunidade foi essencial para o crescimento da instituição, criando uma identidade forte entre alunos e professores que permanece ao longo do tempo. Mesmo diante da expansão, é fundamental preservar e fortalecer esse sentimento de pertencimento. Como afirma Masanori: "Ainda assim, é essencial que todos sintam que fazem parte de algo maior, que tem um impacto real na cidade e na sociedade."</p>
   `
-},
+  },
 
-'linha-temporal-20-anos': {
-  titulo: 'Linha Temporal Fatec 20 anos',
-  conteudo: `
-    <img src="statics/imgs/pictures/linhaTemporal_20 anos.png" alt="Linha Temporal" class="info-image">
+  'linha-temporal-20-anos': {
+    titulo: 'Linha Temporal Fatec 20 anos',
+    conteudo: `
+    <a href="statics/imgs/pictures/linhaTemporal_20 anos.png" target="_blank" rel="noopener noreferrer">
+      <img src="statics/imgs/pictures/linhaTemporal_20 anos.png" alt="Linha Temporal" class="info-image" style="cursor: pointer;">
+    </a>
     <p>A trajetória da Fatec Prof. Jessen Vidal, em São José dos Campos, é marcada por crescimento, inovação e forte conexão com as demandas do mercado e da tecnologia.</p>
     <p>Fundada em 02 de março de 2006, inicialmente instalada no Parque Tecnológico de São José dos Campos, a instituição nasceu com o curso de Logística, com ênfase em Transportes, alinhada ao perfil industrial e estratégico da região.</p>
     <p>Em 2007, ampliou sua atuação com o curso de Tecnologia em Informática, com ênfase em Banco de Dados e Redes de Computadores, fortalecendo sua presença na área de tecnologia da informação. Dois anos depois, em 2009, acompanhando a vocação aeroespacial da cidade, passou a oferecer Tecnologia em Sistemas Aeronáuticos, com foco em Manutenção e Manufatura Aeronáutica.</p>
@@ -766,6 +768,6 @@ export const detalhesInfo = {
     <p>Mais recentemente, em 2026, foi iniciado o curso de Bacharelado em Engenharia de Produção, marcando um novo patamar acadêmico. E, projetando o futuro, a instituição segue expandindo suas áreas estratégicas, reafirmando seu compromisso com inovação e excelência.</p>
     <p>Ao completar 20 anos de história, a Fatec de São José dos Campos celebra uma trajetória construída com dedicação, evolução constante e impacto direto na formação de profissionais qualificados, contribuindo para o desenvolvimento tecnológico e industrial da região e do país.</p>
   `
-},
+  },
 
 }
