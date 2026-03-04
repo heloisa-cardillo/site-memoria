@@ -706,4 +706,66 @@ export const detalhesInfo = {
   `
   },
 
+
+  'fatec-20-anos': {
+  titulo: 'FATEC 20 anos - São José dos Campos',
+  conteudo: `
+  <div class="card-container">
+    <article class="card">
+      <div class="card-image-container">
+        <video controls class="card-image" loading="lazy">
+          <source src="statics/video/FATEC 20 ANOS versão final.mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Video FATEC 20 anos</h3>
+        <p class="card-text">Os depoimentos destacam que a FATEC São José se constrói com inovação prática, responsabilidade e compromisso ético. A instituição vai além da formação técnica, promovendo desenvolvimento humano e social ao acompanhar o crescimento de seus alunos. Também reforça a importância do senso de comunidade e do pertencimento, preservando uma identidade forte e um impacto real na sociedade.</p>
+        <a href="#" class="saiba-mais" data-id="video-fatec-20-anos">Saiba +</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-image-container">
+        <img src="statics/imgs/pictures/linhaTemporal_20 anos.png" alt="Linha Temporal" class="card-image" loading="lazy">
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Linha Temporal Fatec 20 anos</h3>
+        <p class="card-text">A Fatec Prof. Jessen Vidal, em São José dos Campos, construiu ao longo de 20 anos uma trajetória marcada por expansão, inovação e adaptação. Desde sua fundação em 2006, a instituição ampliou cursos, modernizou sua estrutura e acompanhou as transformações tecnológicas e industriais da região, consolidando-se como referência no ensino superior tecnológico.</p>
+        <a href="#" class="saiba-mais" data-id="linha-temporal-20-anos">Saiba +</a>
+      </div>
+    </article>
+  </div>
+  `
+},
+
+'video-fatec-20-anos': {
+  titulo: 'Video FATEC 20 anos',
+  conteudo: `
+    <div class="video-container">
+      <video controls width="100%">
+        <source src="statics/video/FATEC 20 ANOS versão final.mp4" type="video/mp4">
+        Seu navegador não suporta a reprodução de vídeos.
+      </video>
+    </div>
+    <p>"Aqui é um lugar onde a gente busca esse tipo de inovação." — Luiz Antônio Tozi. A fala reforça que a FATEC São José deve manter um espírito constante de inovação, não como discurso, mas como prática cotidiana. A instituição é apresentada não como um espaço de respostas prontas, mas de construção, iniciativa e protagonismo. Autonomia, nesse contexto, exige responsabilidade, respeito às regras e maturidade para propor melhorias. O depoimento evidencia a importância de uma gestão sólida, do compromisso ético e da busca contínua por evolução e qualidade.</p>
+    <p>"O mais gratificante é reencontrar esses alunos mais tarde, já formados, seguindo suas carreiras." — Reinaldo Arakaki. Para ele, embora a instituição permaneça, os alunos estão sempre se renovando, trazendo novas expectativas, sonhos e necessidades, o que mantém viva a motivação de ensinar. O verdadeiro impacto da educação aparece no reencontro com ex-alunos formados e bem-sucedidos, confirmando que a formação recebida contribuiu para suas trajetórias. Assim, a missão da FATEC vai além da capacitação profissional, alcançando também o desenvolvimento humano e social.</p>
+    <p>Complementando essa visão, destaca-se que o senso de comunidade foi essencial para o crescimento da instituição, criando uma identidade forte entre alunos e professores que permanece ao longo do tempo. Mesmo diante da expansão, é fundamental preservar e fortalecer esse sentimento de pertencimento. Como afirma Masanori: "Ainda assim, é essencial que todos sintam que fazem parte de algo maior, que tem um impacto real na cidade e na sociedade."</p>
+  `
+},
+
+'linha-temporal-20-anos': {
+  titulo: 'Linha Temporal Fatec 20 anos',
+  conteudo: `
+    <img src="statics/imgs/pictures/linhaTemporal_20 anos.png" alt="Linha Temporal" class="info-image">
+    <p>A trajetória da Fatec Prof. Jessen Vidal, em São José dos Campos, é marcada por crescimento, inovação e forte conexão com as demandas do mercado e da tecnologia.</p>
+    <p>Fundada em 02 de março de 2006, inicialmente instalada no Parque Tecnológico de São José dos Campos, a instituição nasceu com o curso de Logística, com ênfase em Transportes, alinhada ao perfil industrial e estratégico da região.</p>
+    <p>Em 2007, ampliou sua atuação com o curso de Tecnologia em Informática, com ênfase em Banco de Dados e Redes de Computadores, fortalecendo sua presença na área de tecnologia da informação. Dois anos depois, em 2009, acompanhando a vocação aeroespacial da cidade, passou a oferecer Tecnologia em Sistemas Aeronáuticos, com foco em Manutenção e Manufatura Aeronáutica.</p>
+    <p>O crescimento continuou em 2011, com a mudança para o prédio atual, consolidando sua estrutura física e abrindo caminho para novas oportunidades. Em 2013, novos cursos foram implantados, como Manufatura Avançada, Projetos de Estruturas Aeronáuticas, Tecnologia em Gestão da Produção e Análise e Desenvolvimento de Sistemas, ampliando significativamente o portfólio acadêmico.</p>
+    <p>Em 2015, a instituição passou a oferecer Gestão Empresarial (EAD), expandindo o acesso ao ensino superior. Entre 2020 e 2022, em razão da pandemia, os cursos da instituição se adaptaram temporariamente ao formato remoto, através da plataforma Teams, garantindo a continuidade do ensino com qualidade e compromisso. Nesse mesmo período, surgiu o curso de Desenvolvimento de Software Multiplataforma, ampliando ainda mais a presença da Fatec na área de tecnologia.</p>
+    <p>Mais recentemente, em 2026, foi iniciado o curso de Bacharelado em Engenharia de Produção, marcando um novo patamar acadêmico. E, projetando o futuro, a instituição segue expandindo suas áreas estratégicas, reafirmando seu compromisso com inovação e excelência.</p>
+    <p>Ao completar 20 anos de história, a Fatec de São José dos Campos celebra uma trajetória construída com dedicação, evolução constante e impacto direto na formação de profissionais qualificados, contribuindo para o desenvolvimento tecnológico e industrial da região e do país.</p>
+  `
+},
+
 }
