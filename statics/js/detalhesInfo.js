@@ -758,7 +758,10 @@ export const detalhesInfo = {
     titulo: 'Linha Temporal Fatec 20 anos',
     conteudo: `
     <a href="statics/imgs/pictures/linhaTemporal_20 anos.png" target="_blank" rel="noopener noreferrer">
-      <img src="statics/imgs/pictures/linhaTemporal_20 anos.png" alt="Linha Temporal" class="info-image" style="cursor: pointer;">
+      <img src="statics/imgs/pictures/linhaTemporal_20 anos.png"
+           alt="Linha Temporal"
+           style="max-width:100%; cursor:pointer; transition:0.3s;"
+           onclick="this.style.transform = this.style.transform === 'scale(2)' ? 'scale(1)' : 'scale(2)'">
     </a>
     <p>A trajetória da Fatec Prof. Jessen Vidal, em São José dos Campos, é marcada por crescimento, inovação e forte conexão com as demandas do mercado e da tecnologia.</p>
     <p>Fundada em 02 de março de 2006, inicialmente instalada no Parque Tecnológico de São José dos Campos, a instituição nasceu com o curso de Logística, com ênfase em Transportes, alinhada ao perfil industrial e estratégico da região.</p>
