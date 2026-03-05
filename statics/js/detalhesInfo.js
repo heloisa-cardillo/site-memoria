@@ -673,7 +673,7 @@ export const detalhesInfo = {
     titulo: 'Resumo da Entrevista com a Professora Maria Suelena Santiago (30/10/2025)',
     pdf: "/statics/imgs/pessoas/suelena/pdf/seuelenaEntrevista.html",
     conteudo: `
-    <img src="../statics/imgs/pessoas/suelena/suelena.jpeg" alt="Maria Suelena" class="info-image">
+    <img src="../statics/imgs/pessoas/suelena/suelenaImagem.jpeg" alt="Maria Suelena" class="info-image">
     <p>Nascida em Pedralva, no sul de Minas Gerais, Maria Suelena Santiago construiu uma trajetória marcada pela curiosidade intelectual, pela dedicação ao ensino e pela paixão pelo conhecimento. Aos oito anos, mudou-se para São José dos Campos depois de viver com os avós em Paraibuna. O incentivo do tio foi determinante para que seguisse os estudos e desse início a uma vida acadêmica sólida e inspiradora.</p>
     <p>Formada em <strong>Engenharia Mecânica pela Escola Federal de Engenharia de Itajubá (EFEI)</strong> em 1969, concluiu também <strong>graduação em Matemática</strong> e, mais tarde, em <strong>Ciências Biológicas pela Universidade do Vale do Paraíba (2000)</strong>. Ingressou no <strong>Instituto Nacional de Pesquisas Espaciais (INPE)</strong> — ainda conhecido como CNAE — logo após a graduação, onde fez <strong>mestrado em Análise de Sistemas e Aplicações (1973)</strong> e <strong>doutorado em Computação Aplicada (1986)</strong>. O período no INPE foi de grande aprendizado e inspiração, especialmente sob a direção de pesquisadores que marcaram sua formação científica e pessoal.</p>
     <p>Casou-se logo após a formatura, em janeiro de 1971, e construiu uma família unida e estudiosa, com quatro filhos — três meninos e uma menina — que seguiram caminhos ligados ao conhecimento e à dedicação profissional. Dois são engenheiros, uma é arquiteta e outro é médico veterinário. Hoje, com seis netos e filhos vivendo em diferentes países, entre eles França e Alemanha, continua acompanhando com orgulho a trajetória da família. Nos momentos de lazer, dedica-se à leitura e a trabalhos manuais, especialmente à tapeçaria em arraiolos, uma de suas paixões.</p>
@@ -735,6 +735,20 @@ export const detalhesInfo = {
         <a href="#" class="saiba-mais" data-id="linha-temporal-20-anos">Saiba +</a>
       </div>
     </article>
+
+    <article class="card">
+      <div class="card-image-container">
+        <video controls class="card-image" loading="lazy">
+          <source src="statics/video/video 20 ANOS fatec paula souza.mp4">
+          Seu navegador não suporta vídeos HTML5.
+        </video>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Video do Centro Paula Souza sobre os 20 anos da FATEC de São José dos Campos</h3>
+        <p class="card-text">Video de homenagem feito pelo Centro Paula Souza para os 20 anos da FATEC de São José dos Campos</p>
+        <a href="#" class="saiba-mais" data-id="video-fatec-20-anos-fatec-paula-souza">Saiba +</a>
+      </div>
+    </article>
   </div>
   `
   },
@@ -770,6 +784,22 @@ export const detalhesInfo = {
     <p>Em 2015, a instituição passou a oferecer Gestão Empresarial (EAD), expandindo o acesso ao ensino superior. Entre 2020 e 2022, em razão da pandemia, os cursos da instituição se adaptaram temporariamente ao formato remoto, através da plataforma Teams, garantindo a continuidade do ensino com qualidade e compromisso. Nesse mesmo período, surgiu o curso de Desenvolvimento de Software Multiplataforma, ampliando ainda mais a presença da Fatec na área de tecnologia.</p>
     <p>Mais recentemente, em 2026, foi iniciado o curso de Bacharelado em Engenharia de Produção, marcando um novo patamar acadêmico. E, projetando o futuro, a instituição segue expandindo suas áreas estratégicas, reafirmando seu compromisso com inovação e excelência.</p>
     <p>Ao completar 20 anos de história, a Fatec de São José dos Campos celebra uma trajetória construída com dedicação, evolução constante e impacto direto na formação de profissionais qualificados, contribuindo para o desenvolvimento tecnológico e industrial da região e do país.</p>
+  `
+  },
+
+  'video-fatec-20-anos-fatec-paula-souza': {
+    titulo: 'Video FATEC 20 anos',
+    conteudo: `
+    <div class="video-container">
+      <video controls width="100%">
+        <source src="statics/video/video 20 ANOS fatec paula souza.mp4" type="video/mp4">
+        Seu navegador não suporta a reprodução de vídeos.
+      </video>
+    </div>
+    <p>Em comemoração aos 20 anos da Fatec de São José dos Campos, destaca-se o papel da instituição na promoção da inovação e na transformação de histórias por meio do poder da educação.</p>
+    <p>Ao longo dessas duas décadas, os alunos formados pela Fatec têm levado conhecimento e inovação para o mercado de trabalho, gerando impacto no desenvolvimento profissional e tecnológico.</p>
+    <p>O momento também é de reconhecimento e agradecimento aos professores, servidores administrativos, diretoria acadêmica, diretoria administrativa, assistência técnica, auxiliares, coordenadores e parceiros que acreditam na educação e no trabalho realizado pela Fatec de São José dos Campos.</p>
+    <p>Esse esforço coletivo tem contribuído diretamente para o avanço da cidade, do estado de São Paulo e do país, como ressaltam Maycon Geres, vice-presidente do Centro Paula Souza, e Clóvis Dias, presidente da instituição.</p>
   `
   },
 
