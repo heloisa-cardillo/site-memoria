@@ -751,18 +751,18 @@ export const detalhesInfo = {
     <p>"Aqui é um lugar onde a gente busca esse tipo de inovação." — Luiz Antônio Tozi. A fala reforça que a FATEC São José deve manter um espírito constante de inovação, não como discurso, mas como prática cotidiana. A instituição é apresentada não como um espaço de respostas prontas, mas de construção, iniciativa e protagonismo. Autonomia, nesse contexto, exige responsabilidade, respeito às regras e maturidade para propor melhorias. O depoimento evidencia a importância de uma gestão sólida, do compromisso ético e da busca contínua por evolução e qualidade.</p>
     <p>"O mais gratificante é reencontrar esses alunos mais tarde, já formados, seguindo suas carreiras." — Reinaldo Arakaki. Para ele, embora a instituição permaneça, os alunos estão sempre se renovando, trazendo novas expectativas, sonhos e necessidades, o que mantém viva a motivação de ensinar. O verdadeiro impacto da educação aparece no reencontro com ex-alunos formados e bem-sucedidos, confirmando que a formação recebida contribuiu para suas trajetórias. Assim, a missão da FATEC vai além da capacitação profissional, alcançando também o desenvolvimento humano e social.</p>
     <p>Complementando essa visão, destaca-se que o senso de comunidade foi essencial para o crescimento da instituição, criando uma identidade forte entre alunos e professores que permanece ao longo do tempo. Mesmo diante da expansão, é fundamental preservar e fortalecer esse sentimento de pertencimento. Como afirma Masanori: "Ainda assim, é essencial que todos sintam que fazem parte de algo maior, que tem um impacto real na cidade e na sociedade."</p>
+    <p>"Essa lembrança da trajetória como ex-aluno cria um vínculo muito especial." — Marcus Nascimento. O depoimento destaca como a vivência na Fatec vai além da formação acadêmica, construindo um vínculo duradouro com a instituição. Ao relembrar sua trajetória como ex-aluno, ele reconhece que muitas questões só foram compreendidas com o tempo e com a mudança de perspectiva. Hoje, na coordenação, percebe o empenho coletivo em melhorar o curso e valoriza o ambiente acolhedor e colaborativo entre os professores. Sua fala reforça que essa experiência representa também um compromisso com o que é público e com a responsabilidade de retribuir à sociedade.</p>
   `
   },
 
   'linha-temporal-20-anos': {
     titulo: 'Linha Temporal Fatec 20 anos',
     conteudo: `
-    <a href="statics/imgs/pictures/linhaTemporal_20 anos.png" target="_blank" rel="noopener noreferrer">
-      <img src="statics/imgs/pictures/linhaTemporal_20 anos.png"
-           alt="Linha Temporal"
-           style="max-width:100%; cursor:pointer; transition:0.3s;"
-           onclick="this.style.transform = this.style.transform === 'scale(2)' ? 'scale(1)' : 'scale(2)'">
-    </a>
+   <a href="statics/imgs/pictures/linhaTemporal_20 anos.png" target="_blank" rel="noopener noreferrer">
+  <img src="statics/imgs/pictures/linhaTemporal_20 anos.png"
+       alt="Linha Temporal"
+       style="max-width:100%; cursor:pointer;">
+</a>
     <p>A trajetória da Fatec Prof. Jessen Vidal, em São José dos Campos, é marcada por crescimento, inovação e forte conexão com as demandas do mercado e da tecnologia.</p>
     <p>Fundada em 02 de março de 2006, inicialmente instalada no Parque Tecnológico de São José dos Campos, a instituição nasceu com o curso de Logística, com ênfase em Transportes, alinhada ao perfil industrial e estratégico da região.</p>
     <p>Em 2007, ampliou sua atuação com o curso de Tecnologia em Informática, com ênfase em Banco de Dados e Redes de Computadores, fortalecendo sua presença na área de tecnologia da informação. Dois anos depois, em 2009, acompanhando a vocação aeroespacial da cidade, passou a oferecer Tecnologia em Sistemas Aeronáuticos, com foco em Manutenção e Manufatura Aeronáutica.</p>
